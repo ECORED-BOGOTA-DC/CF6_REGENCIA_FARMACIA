@@ -1,19 +1,224 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+@media screen and ( min-width: 992px )  
+  .col-lg-4_5
+    width: 38%
+  .traslape1
+    padding: 4.5rem
+.traslape1
+  display: inline-flexbox
+  clear: both
+  .col-z1
+    z-index: 1
+  .col-z2
+    z-index: 2
+  .f-left
+    float: left
+    img
+      margin-left: 11.3%
+  .f-right
+    float: right
+    .contenedor3c
+      margin-left: -11.3%
+.traslape2
+  clear: both
+  .col-z1
+    z-index: 1
+  .col-z2
+    z-index: 2
+  .f-left
+    float: left
+    .contenedor3c
+      left: -138.3%
+      background-color: #CDEDFC
+  .f-right
+    float: right
+    img
+      margin-left: 69%
 
+@media screen and ( max-width: 991px )
+  .traslape1,.traslape2
+    padding: 1rem 3rem
+    .col-z1
+      z-index: 1
+    .col-z2
+      z-index: 2
+    .f-left,.f-right
+      .contenedor3c
+        margin-right: 0
+        margin-left: 0
+        left: 0
+        right: 0
+        top: -4rem
+      img
+        margin-right: 0
+        margin-left: 0
+        left: 0
+        top: 0
+  .col-lg-4_5
+    width: 100%
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.contenedor3c
+  left: -19%
+  background: #CDEDFC
+  border-radius: 1.5rem 1.5rem 1.5rem 0
+  position: relative
+  box-shadow: 0 0 15px rgba(0,0,0,.3)
+  margin-top: 1rem
 
-  100%
-    transform: translateY(0px)
+.tarjeta--azul
+  background-color: #F1EEFC
+
+.cajon.color-primario
+  background-color: #BFEEF4
+
+.cajon.color-primario::before
+  background-color: #81D4FA
+
+.bloque-texto-a.color-secundario
+  background-color: #F6F6F6
+
+.bloque-texto-a.color-secundario::before
+  background-color: #81D4FA
+
+.tarjeta.color-acento-botones
+  background-color: #D9F2FE
+
+.tarjeta-avatar-c
+  display: flex
+  .tarjeta.color-acento-botones
+    width: 100%
+    margin-right: -10%
+    padding-right: 10%
+  img
+    min-width: 20%
+    max-width: 20%
+    position: relative
+
+.tarjeta.color-primario
+  background-color: #7E5EE3
+
+.tarjeta.color-acento-botones
+  background-color: #00BCD4
+  h2,p
+    color: #FFFFFF
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #DFF4FE
+  color: #000000
+
+.tarjeta--gris
+  background-color: #DFF4FE
+
+.pasos-a.color-acento-botones .pasos-a__circle
+  background-color: #81D4FA
+  border: 5px solid #FFF
+  div
+    color: #FFFFFF
+
+.pasos-a.color-acento-botones .pasos-a__numero::after
+  border-left-color: #00BCD4
+
+.pasos-a.color-acento-botones .pasos-a__linea__esquina__linea
+  border-color: #00BCD4
+
+.pasos-a.color-acento-botones .pasos-a__linea .hor-line
+  border-top-color: #00BCD4
+
+.boton.color-acento-contenido:active, .color-acento-contenido.boton--sm:active, .boton.color-acento-contenido:focus, .color-acento-contenido.boton--sm:focus, .boton.color-acento-contenido, .color-acento-contenido.boton--sm
+  background-color: #FF9D00
+
+.boton.color-acento-contenido:active, .color-acento-contenido.boton--sm:active, .boton.color-acento-contenido:focus, .color-acento-contenido.boton--sm:focus, .boton.color-acento-contenido:hover, .color-acento-contenido.boton--sm:hover
+  background-color: #FF9D00
+
+.tarjeta.color-acento-botones
+  background-color: #E8F0F8
+  h2,p
+    color: #000000
+
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus
+  background-color: #00BCD4
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #00BCD4
+
+.tabs-a.color-acento-botones .tabs-a__tab__selected::before
+  background-color: #00BCD4
+
+.tarjeta.color-acento-botones--borde
+  border: 0px
+  background-color: #EBF8FE
+
+.tarjeta.color-primario
+  background-image: linear-gradient(to bottom, #0ad9f3, #0ad2eb, #0acbe3, #09c4db, #09bdd3, #09b7cc, #08b0c5, #08aabe, #08a2b6, #089bae, #0793a6, #078c9e)
+
+.img-infografica.color-secundario .img-infografica__item__dot::before, .img-infografica.color-secundario .img-infografica__item__dot::after
+  background-color: #FF9D00
+
+.tarjeta.color-acento-botones
+  background-color: #CDEDFC
+  border-bottom: 3px solid #00BCD4
+
+.bg-color1
+  background-color: #F2EEFC
+
+.bg-color2
+  background-image: url(../assets/curso/img10.svg) 
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom
+
+.bg-color3
+  background-image: url(../assets/curso/img15.svg)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom
+
+.bg-color4
+  background-image: url(../assets/curso/img16.svg) 
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom
+
+.bg-color5
+  background-image: url(../assets/curso/img18.svg)
+  margin-inline: -3.2rem 
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.bg-color7
+  background-image: url(../assets/curso/img25.svg)
+  margin-inline: -3.2rem 
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+
+.bg-color6
+  background-color: #CDEDFC
+  border-bottom: 6px solid #00BCD4
+
+.bg-color8
+  background-color: #F7F6FE
+  border-radius: 20px
+
+.bg-color9
+  background-image: url(../assets/curso/img15.svg)
+  margin-inline: -3.2rem
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom
+
+.bg-color10
+  background-color: #F1FBFC
+  border-radius: 20px
+
+.bg-color11
+  background-color: #DDF2FC
+  border-radius: 20px
+
+.bg-color12
+  background-image: url(../assets/curso/img16.svg)
+  margin-inline: -3.2rem
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: bottom
+
