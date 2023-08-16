@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Atención al lesionado o con enfermedad súbita',
     descripcionCurso:
-      'Se abordan los conocimientos de la asistencia como primer respondiente, para identificar oportunamente los signos y síntomas de una persona con enfermedad súbita o con lesiones posteriores a un suceso o evento traumático y/o accidental y brindar los primeros auxilios según protocolos de atención del primer respondiente, evitando complicaciones o secuelas, en cualquier contexto que exista el riesgo o evento.',
+      'Se abordan los conocimientos de la asistencia como primer respondiente, para identificar oportunamente los signos y síntomas de una persona con enfermedad súbita o con lesiones posteriores a un suceso o evento traumático o accidental y brindar los primeros auxilios según protocolos de atención del primer respondiente, evitando complicaciones o secuelas, en cualquier contexto que exista el riesgo o evento.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },

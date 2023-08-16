@@ -16,7 +16,7 @@
         .col-md.col-lg-6
           .titulo-segundo
             h2 Valoración de la escena
-          p.mb-4 Cuando se realiza una valoración de la escena, se deben tener presente tres puntos primordiales: establecer claramente la causa externa o motivo que origina el evento, la cadena de custodia y el nivel I de Triage o Primario, los cuales se explicarán en la siguiente infografía.
+          p.mb-4 Cuando se realiza una valoración de la escena, se deben tener presente tres puntos primordiales: establecer claramente la causa externa o motivo que origina el evento, la cadena de custodia y el nivel I de triaje o primario, los cuales se explicarán en la siguiente infografía.
           a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo1.pdf')" target="_blank" type="application/pdf")
             span(Style="color: #000000 !important") Descargar
             i.fas.fa-file-download(style="color: #000000 !important")

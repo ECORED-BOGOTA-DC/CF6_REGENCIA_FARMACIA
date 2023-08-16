@@ -2,7 +2,6 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
     .titulo-principal
       .titulo-principal__numero
         span 1
@@ -22,6 +21,9 @@
             .p-4
               p #[b Fisiología]: estudio de las funciones del organismo y de los mecanismos de regulación.
     p.mb-5 Para la revisión de los conceptos generales de la anatomía y la fisiología del cuerpo, se revisarán las diferentes estructuras, desde las más sencillas hasta las más complejas, como lo presenta la siguiente imagen.
+    .titulo-sexto.border-titulo.mb-3
+      h5 Figura 1
+      p <i>Desde la célula hasta el organismo</i>
     figure(data-aos="fade-right")
       img(src='@/assets/curso/img8.svg', style="max-width: 1000px;").m-auto
     p.mb-5 Un tejido es un conjunto de células organizadas con una tarea específica; y existen cuatro tipos de tejidos básicos, los cuales muestran patrones de organización, que solo se pueden observar a través de un microscopio, y se clasifican de la siguiente manera:
@@ -31,12 +33,18 @@
     p.mb-5 La posición anatómica del cuerpo humano, es la de estar erguido, con las palmas de las manos vueltas hacia adelante (supinadas). Esta posición se emplea, como #[b referencia], para describir el sitio o la dirección de las diversas estructuras o partes del organismo; como #[b parámetro] se utiliza para describir los hallazgos del examen físico en las valoraciones primaria y secundaria, durante la atención inicial de un lesionado. La siguiente imagen exhibe cómo es la posición anatómica.
     .row.align-items-start.bg-color2.pb-3.mb-5.mx-0
       .col-lg-6.mb-4.mb-lg-0
+        .titulo-sexto.border-titulo.mb-3
+          h5 Figura 2
+          p <i>Posición anatómica</i>
         figure(data-aos="fade-right")
           img(src='@/assets/curso/img9.svg', style="max-width: 550px;").m-auto
       .col-lg-6
         .cajon.color-primario.p-4.mb-4
           p El cuerpo humano se considera como si estuviera de pie con los brazos y piernas extendidas, cabeza erguida mirando al frente, antebrazos girados con las palmas de las manos ubicadas hacia adelante y los pies uno al lado del otro, apoyados en el piso. El cuerpo, en esta posición, se considera descrito por un observador (en este caso el primer respondiente) ubicado frente al cuerpo que describe las estructuras usando como referencia el cuerpo a describir (persona lesionada o con enfermedad súbita) y no la ubicación del observador.
     p.mb-5 A partir de la posición anatómica, se deberá describir una determinada estructura ubicándola, espacialmente, en relación con otras estructuras, de acuerdo con los siguientes términos:
+    .titulo-sexto.border-titulo.mb-3
+      h5 Figura 3
+      p <i>Posición anatómica - Estructura</i>
     figure(data-aos="fade-right").mb-5
       img(src='@/assets/curso/img11.svg', style="max-width: 1200px;").m-auto
     p Esta terminología se emplea de forma constante, aunque el cuerpo se encuentre de pie, boca arriba, boca abajo, o de lado. Por ejemplo, en un cuerpo colocado bocarriba, el corazón siempre se encontrará en posición cefálica o superior al estómago, el hígado estará lateral a la columna vertebral y los riñones se ubicarán inferiores o caudales a las glándulas suprarrenales.
@@ -68,9 +76,15 @@
     p.mb-5 Por otra parte, y paralelo al sistema cardiovascular, se encuentra el sistema linfático que realiza funciones inmunológicas al producir y procesar los linfositos sanguineos, y se encarga del transporte de las grasas, como lo muestra  la siguiente figura.
     .row.bg-color3.mx-0
       .col-12
+        .titulo-sexto.border-titulo.mb-3
+          h5 Figura 4
+          p <i>Sistemas linfático y cardiovascular</i>
         figure(data-aos="fade-left").mb-5
           img(src='@/assets/curso/img13.svg', style="max-width: 1100px;").m-auto
     p.my-5 El movimiento de la sangre a través del corazón y por todo el cuerpo se llama circulación. La siguiente figura explica más ampliamente el concepto.
+    .titulo-sexto.border-titulo.mb-3
+      h5 Figura 5
+      p <i>Sistema circulatorio</i>
     figure(data-aos="fade-right").mb-5.bg-color4
       img(src='@/assets/curso/img14.svg', style="max-width: 1100px;").m-auto
     p El proceso de la circulación se divide en dos fases o ciclos: circulación mayor o sistémica (izquierda) y circulación menor o pulmonar (derecha). Para conocer cada uno de ellos, se debe visitar en el material complementario el video Circulación menor y mayor.
@@ -79,14 +93,14 @@
     .titulo-segundo
       h2 1.2 Sistema respiratorio
     p Permite la entrada de oxígeno al organismo durante el proceso de la respiración (inspiración o inhalación) y expulsa el dióxido de carbono (expiración o exhalación).
-    p Los órganos que componen el aparato respiratorio funcionan como abastecedores y distribuidores de aire, a excepción de los alveolos, donde se realiza el verdadero intercambio gaseoso de O2 (oxígeno) y CO2 (dióxido de carbono) entre los tejidos y los capilares sanguíneos.
+    p Los órganos que componen el aparato respiratorio funcionan como abastecedores y distribuidores de aire, a excepción de los alveolos, donde se realiza el verdadero intercambio gaseoso de O<sub>2</sub> (oxígeno) y CO<sub>2</sub> (dióxido de carbono) entre los tejidos y los capilares sanguíneos.
     p.mb-5 A continuación, se amplía la información sobre este proceso.
     .row.bg-color5.px-5
       .col-12
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/img9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/img66.svg', alt='Texto que describa la imagen')
           .tarjeta.color-acento-botones.p-3(x="20.2%" y="22.5%")
             .h5.mb-2 Fosa nasal
             p El aire pasa por las fosas nasales, se calienta y humidifica. Las fosas nasales y las vías respiratorias están protegidos por pelos diminutos llamados "cilios", que se encargan de filtrar el polvo y otras partículas que entran en la nariz junto con el aire que respiramos. Se unen en la faringe, o garganta, en la parte posterior de la nariz y la boca.
@@ -150,6 +164,12 @@
           img(src='@/assets/curso/img23.svg', style="max-width: 350px;").m-auto
     .row.bg-color7
       .col-12
+        p El sistema nervioso está compuesto por:
+
+        .titulo-sexto.border-titulo.mb-3
+          h5 Figura 6
+          p <i>Composición del sistema nervioso</i>
+
         figure.mb-4.mb-lg-0(data-aos="fade-right")
           img(src='@/assets/curso/img24.svg', style="max-width: 1200px;").m-auto
     separador.mb-5
@@ -160,6 +180,9 @@
     p.mb-5 La siguiente figura explica qué es y cómo está compuesto el aparato locomotor.
     .row.bg-color5.mb-5
       .col-12
+        .titulo-sexto.border-titulo.mb-3
+          h5 Figura 7
+          p <i>Composición del aparato locomotor</i>
         figure.mb-4.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/img26.svg', style="max-width: 1200px;").m-auto
     p.mb-5 Es importante dividir el esqueleto en dos para su estudio y comprensión:
@@ -203,10 +226,13 @@
       h2 1.5 Sistema digestivo
     p Es una especie de planta procesadora de alimentos, dentro del cuerpo humano. Permite el ingreso de los alimentos y los transporta por órganos y estructuras donde se produce el proceso de la digestión; utiliza la energía que requiere para el movimiento, metabolismo, pensamiento, etc., y desecha el resto.
     p.mb-5 La siguiente figura muestra las partes del sistema digestivo.
-    .row.bg-color9.mb-5
-      .col-12
-        figure(data-aos="fade-left")
-          img(src='@/assets/curso/img29.svg', style="max-width: 1100px;").m-auto
+      .row.bg-color9.mb-5
+        .col-12
+          .titulo-sexto.border-titulo.mb-3
+            h5 Figura 8
+            p <i>Composición del sistema digestivo</i>
+          figure(data-aos="fade-left")
+            img(src='@/assets/curso/img29.svg', style="max-width: 1100px;").m-auto
     p Para conocer el proceso de digestión, se invita a visitar el video Sistema digestivo – Proceso de la digestión que se encuentra en el material complementario.
     separador.mb-5
     #t_1_6
