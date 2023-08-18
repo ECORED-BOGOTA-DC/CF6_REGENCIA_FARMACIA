@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
       h1 Conceptos básicos de anatomía y fisiología
@@ -21,11 +21,14 @@
             .p-4
               p #[b Fisiología]: estudio de las funciones del organismo y de los mecanismos de regulación.
     p.mb-5 Para la revisión de los conceptos generales de la anatomía y la fisiología del cuerpo, se revisarán las diferentes estructuras, desde las más sencillas hasta las más complejas, como lo presenta la siguiente imagen.
+
     .titulo-sexto.border-titulo.mb-3
-      h5 Figura 1
-      p <i>Desde la célula hasta el organismo</i>
+      h5 Figura 1.
+      span Desde la célula hasta el organismo
+
     figure(data-aos="fade-right")
       img(src='@/assets/curso/img8.svg', style="max-width: 1000px;").m-auto
+
     p.mb-5 Un tejido es un conjunto de células organizadas con una tarea específica; y existen cuatro tipos de tejidos básicos, los cuales muestran patrones de organización, que solo se pueden observar a través de un microscopio, y se clasifican de la siguiente manera:
     SlyderB.bg-color1.p-4.mb-5(:datos="datosSlyder")
     .h4 Posición anatómica
@@ -33,24 +36,28 @@
     p.mb-5 La posición anatómica del cuerpo humano, es la de estar erguido, con las palmas de las manos vueltas hacia adelante (supinadas). Esta posición se emplea, como #[b referencia], para describir el sitio o la dirección de las diversas estructuras o partes del organismo; como #[b parámetro] se utiliza para describir los hallazgos del examen físico en las valoraciones primaria y secundaria, durante la atención inicial de un lesionado. La siguiente imagen exhibe cómo es la posición anatómica.
     .row.align-items-start.bg-color2.pb-3.mb-5.mx-0
       .col-lg-6.mb-4.mb-lg-0
+
         .titulo-sexto.border-titulo.mb-3
-          h5 Figura 2
-          p <i>Posición anatómica</i>
+          h5 Figura 2.
+          span Posición anatómica
+
         figure(data-aos="fade-right")
           img(src='@/assets/curso/img9.svg', style="max-width: 550px;").m-auto
       .col-lg-6
         .cajon.color-primario.p-4.mb-4
           p El cuerpo humano se considera como si estuviera de pie con los brazos y piernas extendidas, cabeza erguida mirando al frente, antebrazos girados con las palmas de las manos ubicadas hacia adelante y los pies uno al lado del otro, apoyados en el piso. El cuerpo, en esta posición, se considera descrito por un observador (en este caso el primer respondiente) ubicado frente al cuerpo que describe las estructuras usando como referencia el cuerpo a describir (persona lesionada o con enfermedad súbita) y no la ubicación del observador.
     p.mb-5 A partir de la posición anatómica, se deberá describir una determinada estructura ubicándola, espacialmente, en relación con otras estructuras, de acuerdo con los siguientes términos:
+
     .titulo-sexto.border-titulo.mb-3
-      h5 Figura 3
-      p <i>Posición anatómica - Estructura</i>
+      h5 Figura 3.
+      span Posición anatómica - Estructura
+
     figure(data-aos="fade-right").mb-5
       img(src='@/assets/curso/img11.svg', style="max-width: 1200px;").m-auto
     p Esta terminología se emplea de forma constante, aunque el cuerpo se encuentre de pie, boca arriba, boca abajo, o de lado. Por ejemplo, en un cuerpo colocado bocarriba, el corazón siempre se encontrará en posición cefálica o superior al estómago, el hígado estará lateral a la columna vertebral y los riñones se ubicarán inferiores o caudales a las glándulas suprarrenales.
     separador.mb-5
     #t_1_1
-    .titulo-segundo
+    .titulo-segundo.color-acento-contenido
       h2 1.1 Sistema cardiovascular
     figure(data-aos="fade-right").mb-5
       img(src='@/assets/curso/img12.svg', style="max-width: 800px;").m-auto
@@ -77,20 +84,20 @@
     .row.bg-color3.mx-0
       .col-12
         .titulo-sexto.border-titulo.mb-3
-          h5 Figura 4
-          p <i>Sistemas linfático y cardiovascular</i>
+          h5 Figura 4.
+          span Sistemas linfático y cardiovascular
         figure(data-aos="fade-left").mb-5
           img(src='@/assets/curso/img13.svg', style="max-width: 1100px;").m-auto
     p.my-5 El movimiento de la sangre a través del corazón y por todo el cuerpo se llama circulación. La siguiente figura explica más ampliamente el concepto.
     .titulo-sexto.border-titulo.mb-3
-      h5 Figura 5
-      p <i>Sistema circulatorio</i>
+      h5 Figura 5.
+      span Sistema circulatorio
     figure(data-aos="fade-right").mb-5.bg-color4
       img(src='@/assets/curso/img14.svg', style="max-width: 1100px;").m-auto
     p El proceso de la circulación se divide en dos fases o ciclos: circulación mayor o sistémica (izquierda) y circulación menor o pulmonar (derecha). Para conocer cada uno de ellos, se debe visitar en el material complementario el video Circulación menor y mayor.
     separador.mb-5
     #t_1_2
-    .titulo-segundo
+    .titulo-segundo.color-acento-contenido
       h2 1.2 Sistema respiratorio
     p Permite la entrada de oxígeno al organismo durante el proceso de la respiración (inspiración o inhalación) y expulsa el dióxido de carbono (expiración o exhalación).
     p Los órganos que componen el aparato respiratorio funcionan como abastecedores y distribuidores de aire, a excepción de los alveolos, donde se realiza el verdadero intercambio gaseoso de O<sub>2</sub> (oxígeno) y CO<sub>2</sub> (dióxido de carbono) entre los tejidos y los capilares sanguíneos.
@@ -128,7 +135,7 @@
           p.mb-0 La red de alvéolos, bronquiolos y bronquios recibe el nombre de “árbol bronquial”.
     separador.mb-5
     #t_1_3
-    .titulo-segundo
+    .titulo-segundo.color-acento-contenido
       h2 1.3 Sistema nervioso
     .row.justify-content-center
       .col-lg-10
@@ -147,14 +154,17 @@
           img(src='@/assets/curso/img20.svg' alt='AvatarTop')
           .tarjeta.color-acento-botones.d-flex.align-items-center
             .p-4 #[b Sensorial o sensitiva]: percibe los estímulos internos y externos como la luz, presión o concentración de sustancias químicas, con los receptores u órganos receptivos.
+
         .tarjeta-avatar-c.mb-5
           .tarjeta.color-acento-botones.d-flex.align-items-center
             .p-4 #[b Integradora]: analiza la información sensorial y toma las decisiones apropiadas. Se activa o modifica por la información que está almacenada y se recupera de la memoria.
           img(src='@/assets/curso/img21.svg' alt='AvatarTop')
+
         .tarjeta-avatar-b
           img(src='@/assets/curso/img22.svg' alt='AvatarTop')
           .tarjeta.color-acento-botones.d-flex.align-items-center
             .p-4 #[b Motora]: provoca respuestas de músculos o glándulas, estimulando los órganos y vísceras para que actúen o se inhiban.
+            
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
         p El sistema nervioso es el más complejo y altamente organizado del cuerpo humano; recibe información de los órganos sensoriales (la piel, los ojos, la lengua, el oído, etc.) mediante nervios, transmite la información a través de la médula espinal y la procesa en el encéfalo. El sistema nervioso dirige las reacciones del cuerpo hacia el mundo, y controla también la mayoría de las funciones internas, desde el movimiento muscular y la dilatación de los vasos sanguíneos hasta el aprendizaje de los datos anatómicos y fisiológicos.
@@ -167,22 +177,22 @@
         p El sistema nervioso está compuesto por:
 
         .titulo-sexto.border-titulo.mb-3
-          h5 Figura 6
-          p <i>Composición del sistema nervioso</i>
+          h5 Figura 6.
+          span Composición del sistema nervioso
 
         figure.mb-4.mb-lg-0(data-aos="fade-right")
           img(src='@/assets/curso/img24.svg', style="max-width: 1200px;").m-auto
     separador.mb-5
     #t_1_4
-    .titulo-segundo
+    .titulo-segundo.color-acento-contenido
       h2 1.4 Aparato locomotor
     p Es una compleja red de tejidos de distinta naturaleza que permite al cuerpo humano sostenerse en pie y realizar diversos movimientos, desde simplemente caminar hasta los más precisos y delicados movimientos de las manos.
     p.mb-5 La siguiente figura explica qué es y cómo está compuesto el aparato locomotor.
     .row.bg-color5.mb-5
       .col-12
         .titulo-sexto.border-titulo.mb-3
-          h5 Figura 7
-          p <i>Composición del aparato locomotor</i>
+          h5 Figura 7.
+          span Composición del aparato locomotor
         figure.mb-4.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/img26.svg', style="max-width: 1200px;").m-auto
     p.mb-5 Es importante dividir el esqueleto en dos para su estudio y comprensión:
@@ -222,21 +232,21 @@
               img(src='@/assets/curso/img6.png', style="max-width: 350px;").m-auto
     separador.mb-5
     #t_1_5
-    .titulo-segundo
+    .titulo-segundo.color-acento-contenido
       h2 1.5 Sistema digestivo
     p Es una especie de planta procesadora de alimentos, dentro del cuerpo humano. Permite el ingreso de los alimentos y los transporta por órganos y estructuras donde se produce el proceso de la digestión; utiliza la energía que requiere para el movimiento, metabolismo, pensamiento, etc., y desecha el resto.
     p.mb-5 La siguiente figura muestra las partes del sistema digestivo.
       .row.bg-color9.mb-5
         .col-12
           .titulo-sexto.border-titulo.mb-3
-            h5 Figura 8
-            p <i>Composición del sistema digestivo</i>
+            h5 Figura 8.
+            span Composición del sistema digestivo
           figure(data-aos="fade-left")
             img(src='@/assets/curso/img29.svg', style="max-width: 1100px;").m-auto
     p Para conocer el proceso de digestión, se invita a visitar el video Sistema digestivo – Proceso de la digestión que se encuentra en el material complementario.
     separador.mb-5
     #t_1_6
-    .titulo-segundo
+    .titulo-segundo.color-acento-contenido
       h2 1.6 Salud mental
     .row.align-items-center.mb-5
       .col-4

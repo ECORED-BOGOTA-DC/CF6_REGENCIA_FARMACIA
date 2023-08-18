@@ -171,6 +171,11 @@ export default {
         nombreRuta: 'referencias',
       },
       {
+        icono: 'fas fa-file-pdf',
+        titulo: 'Descargar PDF',
+        download: 'downloads/prueba.pdf',
+      },
+      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -184,68 +189,69 @@ export default {
   },
   complementario: [
     {
-      tema: '',
+      tema: 'Conceptos básicos de anatomía y fisiología',
       referencia:
-        'Nielsen, M. y Miller, S. (2012). Atlas de anatomía. Editorial Panamericana. ',
+        'Nielsen, M. y Miller, S. (2012). <i>Atlas de anatomía.</i> Editorial Panamericana. ',
       tipo: 'Libro',
       link:
         'https://login.bdigital.sena.edu.co/login?url=https://www.medicapanamericana.com/VisorEbookV2/Ebook/9788498355901?token=adc56dbb-e0c3-4b6a-b06b-4eedd9fe00d0#{%22Pagina%22:%22IV%22,%22Vista%22:%22Indice%22,%22Busqueda%22:%22%22}',
     },
     {
-      tema: '',
+      tema: 'Conceptos básicos de anatomía y fisiología',
       referencia:
-        'Nutrimente. (2019). Niveles de organización de la materia y los seres vivos.',
+        'Nutrimente. (2019). <i>Niveles de organización de la materia y los seres vivos.</i>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=mHpqQ7mZSvY',
     },
     {
-      tema: '',
-      referencia: 'Cuaderno de ciencias. (2019). Circulación menor y mayor.',
+      tema: 'Sistema cardiovascular',
+      referencia:
+        'Cuaderno de ciencias. (2019). <i>Circulación menor y mayor.</i>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=rAXPO2FeRDY',
     },
     {
-      tema: '',
+      tema: 'Sistema nervioso',
       referencia:
-        'Smile and Learn – Español. (2018). El sistema nervioso – El cuerpo humano para niños.',
+        'Smile and Learn – Español. (2018). <i>El sistema nervioso – El cuerpo humano para niños.</i>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=-_GXk4HZML4',
     },
     {
-      tema: '',
+      tema: 'Aparato locomotor',
       referencia:
-        'Visiblebody.com. (2021). Diez datos sobre el esqueleto: reseña general del sistema esquelético. Visible body.',
+        'Visiblebody.com. (2021). <i>Diez datos sobre el esqueleto: reseña general del sistema esquelético.</i> Visible body.',
       tipo: 'Página web',
       link:
         'https://www.visiblebody.com/es/learn/skeleton/overview-of-skeleton',
     },
     {
-      tema: '',
+      tema: 'Sistema digestivo',
       referencia:
-        'Doc Camino Tene. (2014). Sistema digestivo - Proceso de digestión.',
+        'Doc Camino Tene. (2014). <i>Sistema digestivo - Proceso de digestión.</i>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=R-NbLe_81-E',
     },
     {
-      tema: '',
+      tema: 'Reanimación cardio-pulmonar básica RCP',
       referencia:
-        'Galarreta, M. (2018). Enferpedia. Técnicas y procedimientos de enfermería. Editorial Médica Panamericana.',
+        'Galarreta, M. (2018). <i>Enferpedia. Técnicas y procedimientos de enfermería.</i> Editorial Médica Panamericana.',
       tipo: 'Libro',
       link:
         'https://login.bdigital.sena.edu.co/login?url=https://www.medicapanamericana.com/VisorEbookV2/Ebook/9788491102410?token=f4ce7507-00de-4ce1-8190-7a9676f9e00a#{%22Pagina%22:%22III%22,%22Vista%22:%22Indice%22,%22Busqueda%22:%22%22}',
     },
     {
-      tema: '',
+      tema: 'Reanimación cardio-pulmonar básica RCP',
       referencia:
-        'Fundación Mapfre. (s.f.). Posición lateral de seguridad. Fundación Mapfre.',
+        'Fundación Mapfre. (s.f.). <i>Posición lateral de seguridad.</i> Fundación Mapfre.',
       tipo: 'PDF',
       link:
         'https://documentacion.fundacionmapfre.org/documentacion/publico/i18n/catalogo_imagenes/imagen.cmd?path=1103489&posicion=7&registrardownload=1',
     },
     {
-      tema: '',
+      tema: 'Ahogamiento por inmersión',
       referencia:
-        'Martínez, N. (2011). Ahogamiento o asfixia por inmersión. Primeros auxilios.',
+        'Martínez, N. (2011). <i>Ahogamiento o asfixia por inmersión. Primeros auxilios.</i>',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=2utp_W3e1ec',
     },
@@ -370,15 +376,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Línea de Producción',
+          nombre: 'Liliana Victoria Morales Gualdró',
+          cargo: 'Responsable de línea de producció',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },
@@ -386,10 +392,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Emilia Sarmiento Mora',
+          cargo: 'Profesional Experta Temática',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia. ',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo:
+            'Diseñadora Instruccional - Revisora Metodológica y Pedagógica',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander.',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Revisión y corrección de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Gloria Amparo López Escudero',
+          cargo: 'Adecuación instrucciona',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },
@@ -397,51 +433,57 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
+          nombre: 'Jesús Antonio Vecino Valero',
+          cargo: 'Diseño web',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Manuel Felipe Echavarría Orozco',
           cargo: 'Desarrollador Fullstack',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
-        },
+        //{
+        //nombre: 'Lady Adriana Ariza Luque',
+        //cargo: 'Animación y Producción audiovisual',
+        //centro:
+        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        //},
+        //{
+        //nombre: 'Laura Gisselle Murcia Pardo',
+        //cargo: 'Animación y producción audiovisual',
+        //centro:
+        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        //},
+        //{
+        //nombre: 'Ernesto Navarro Jaimes',
+        //cargo: 'Animación y producción audiovisual',
+        //centro:
+        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
         },
       ],
     },

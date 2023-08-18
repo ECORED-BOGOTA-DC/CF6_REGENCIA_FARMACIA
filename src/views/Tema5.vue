@@ -3,14 +3,14 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 5
       h1 Soporte vital básico por grupos etarios
     p A continuación, se estudiarán la Reanimación Cardiopulmonar Básica (RCP), el protocolo de obstrucción de vía aérea por cuerpo extraño y el ahogamiento por inmersión.
     separador.mb-5
     #t_5_1
-    .titulo-segundo
+    .titulo-segundo.color-acento-contenido
       h2 5.1 Reanimación Cardiopulmonar Básica (RCP)
     p Es importante tener presente que la #[b cadena de supervivencia] es el conjunto de medidas regladas y secuenciales que tenemos que seguir para actuar correctamente a la hora de atender a una persona que ha sufrido una parada cardiorrespiratoria, en el área extrahospitalaria.
     p.mb-5 La siguiente figura presenta el orden en que se debe realizar la valoración primaria del estado de conciencia.
@@ -114,7 +114,7 @@
           p No se debe interrumpir la reanimación hasta que el paciente muestre signos de vida, hasta que lleguen los profesionales sanitarios o hasta que la persona que reanima, esté agotada o exista peligro para su integridad.
     separador.mb-5
     #t_5_2
-    .titulo-segundo
+    .titulo-segundo.color-acento-contenido
       h2 5.2 Protocolo de Ovace (obstrucción de vía aérea por cuerpo extraño)
     .row.align-items-center.bg-color12.mb-5
       .col-lg-4
@@ -155,7 +155,7 @@
             p Si la persona pierde el conocimiento y deja de respirar, active el NUSE 123, donde se le brindará orientación e información, en caso necesario. Si es imprescindible, inicie maniobra RCP básica.
     separador.mb-5
     #t_5_3
-    .titulo-segundo
+    .titulo-segundo.color-acento-contenido
       h2 5.3 Ahogamiento por inmersión
     .row.p-4.align-items-center.bg-color11.mb-5
       .col-lg-4
