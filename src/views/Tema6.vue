@@ -13,7 +13,7 @@
         .tarjeta.color-primario.p-3(data-aos="fade-right")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
-              img(src="@/assets/curso/img65.svg")
+              img(src="@/assets/curso/img65.svg", alt='Imágen decorativa')
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0

@@ -15,26 +15,30 @@
         p La siguiente figura presenta qué son y cómo tomar los signos vitales.
       .col-lg-6
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/img8.png', style="max-width: 400px;").m-auto
+          img(src='@/assets/curso/img8.png', style="max-width: 400px;", alt='Imágen decorativa').m-auto
     .row.p-4.bg-color10
       .col-12
         .h4 Pulso
         p.mb-5 Es la cantidad de veces que el corazón late por minuto. Cuando el corazón impulsa la sangre a través de las arterias, sentirá los latidos presionando, con firmeza, en las arterias que se encuentran cerca de la superficie de la piel, en ciertos lugares del cuerpo.
-        .h4.text-center.mb-4 ¿Cómo se puede palpar?
+        .titulo-sexto.border-titulo.mb-3
+          h5 Figura 9.
+          span ¿Cómo se puede palpar?
+
         .row.justify-content-around
           .col-lg-4
             figure.mb-5
-              img(src='@/assets/curso/img33.svg', style="max-width: 350px;").m-auto
+              img(src='@/assets/curso/img33.svg', style="max-width: 350px;", alt='Imagen como palpar pulso en la parte lateral del cuello, en la arteria carótida').m-auto
           .col-lg-4
             figure.mb-5
-              img(src='@/assets/curso/img34.svg', style="max-width: 350px;").m-auto
+              img(src='@/assets/curso/img34.svg', style="max-width: 350px;", alt='Imagen como palpar pulso en la parte interior del codo, arteria braquial').m-auto
           .col-lg-4
             figure.mb-5
-              img(src='@/assets/curso/img35.svg', style="max-width: 350px;").m-auto
+              img(src='@/assets/curso/img35.svg', style="max-width: 350px;", alt='Imagen como palpar pulso en la muñeca arteria radial, específicamente debajo del dedo pulgar').m-auto
+
         .row.mb-5
           .col-lg-3
             figure.mb-4.mb-lg-0(data-aos="fade-left")
-              img(src='@/assets/curso/img36.svg', style="max-width: 1500px;").m-auto
+              img(src='@/assets/curso/img36.svg', style="max-width: 1500px;", alt='Imagen que muestra los diferentes sitios de toma de pulso en el cuerpo humano y se describe en la parte inferior.').m-auto
           .col-lg-9
             PasosA.color-acento-botones.mb-4(tipo="l")
               div
@@ -45,41 +49,41 @@
                 p Si la persona está inconsciente y no responde a su llamado inicial, presenta una coloración azulada alrededor de los labios o se encuentra sangrando mucho, verifique la presencia de pulso, directamente en uno de los lados del cuello, o sea en la arteria carótida.
             .row.justify-content-center
               .col-8
-                ul.lista-ul.ms-5
+                ul.lista-ul.ms-5.fa-ul2
                   li 
                     i.fas.fa-atom(style="color: #7E5EE3")
-                    p El pulso normal de los adultos sanos oscila entre los 60 y 100 latidos por minuto.
+                    | El pulso normal de los adultos sanos oscila entre los 60 y 100 latidos por minuto.
                   li 
                     i.fas.fa-atom(style="color: #7E5EE3")
-                    p El pulso puede fluctuar y aumentar con el ejercicio, las enfermedades, las lesiones y las emociones.
+                    | El pulso puede fluctuar y aumentar con el ejercicio, las enfermedades, las lesiones y las emociones.
                   li 
                     i.fas.fa-atom(style="color: #7E5EE3")
-                    p Los deportistas pueden tener frecuencias cardíacas de hasta 40 latidos por minuto sin presentar ningún tipo de problema.
+                    | Los deportistas pueden tener frecuencias cardíacas de hasta 40 latidos por minuto sin presentar ningún tipo de problema.
         .h4 Relleno capilar
         p.mb-5 Es la valoración de la capacidad del sistema circulatorio para llevar la sangre bombeada por el corazón hasta los capilares de las partes más distales, al centro del cuerpo; lo que refleja es estado de perfusión en los tejidos.
         .row.align-items-center.mb-5
           .col-lg-4.p-4.bg-color11.mb-4.mb-lg-0
             figure.mb-4
-              img(src='@/assets/curso/img37.svg', style="max-width: 100px;")
+              img(src='@/assets/curso/img37.svg', style="max-width: 100px;", alt='Imágen decorativa')
             p Se considera relleno capilar normal a la recuperación del color rosado del lecho ungueal en un tiempo inferior a 2 segundos y se puede alterar en <i>shock</i>, hipotensión, hemorragias, hipotermia y en estados graves de deshidratación, el tiempo de llenado capilar es mayor a 2 segundos.
           .col-lg-8
             .h5.mb-4 ¿Cómo se puede valorar?
             .row.mb-4.align-items-center
               .col-auto.d-inline
                 figure
-                  img(src='@/assets/curso/img20.svg', style="max-width: 70px;")
+                  img(src='@/assets/curso/img20.svg', style="max-width: 70px;", alt='Imágen decorativa')
               .col
                 p.mb-0 Presione el lecho ungueal en 2 o 3 dedos (sin esmalte) del paciente. Con la presión, la sangre ha sido forzada a salir del tejido bajo la uña, lo cual se denomina palidez.
             .row.mb-4.align-items-center
               .col-auto.d-inline
                 figure
-                  img(src='@/assets/curso/img21.svg', style="max-width: 70px;")
+                  img(src='@/assets/curso/img21.svg', style="max-width: 70px;", alt='Imágen decorativa')
               .col
                 p.mb-0 Una vez que el tejido ha palidecido, se quita la presión.
             .row.mb-4.align-items-center
               .col-auto.d-inline
                 figure
-                  img(src='@/assets/curso/img22.svg', style="max-width: 70px;")
+                  img(src='@/assets/curso/img22.svg', style="max-width: 70px;", alt='Imágen decorativa')
               .col
                 p.mb-0 Medir el tiempo que tarda en volver al color previo o inicial; tiempo que le lleva a la sangre a regresar al tejido. El regreso de la sangre al tejido se indica por el retorno del color rosado a la uña.
         .h4 Frecuencia respiratoria

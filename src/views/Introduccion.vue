@@ -14,13 +14,13 @@
         p El cuerpo humano, desde la célula más pequeña hasta el órgano más grande, está perfectamente diseñado y programado con diferentes mecanismos de compensación para responder a las diversas situaciones y estados, que, aunque es muy frágil, es capaz de dar respuesta y defenderse; sin embargo, constantemente se encuentra expuesto a diferentes tipos de daños.
       .col-lg-5
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/img1.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/img1.svg', alt='Imágen decorativa')
     .row.justify-content-center.mb-5
       .col-lg-10
         .contenedor__bbg5
           .row.traslape2
             .col-lg-7.col-z1.f-right(data-aos="fade-left")
-              img(src="@/assets/curso/img1.png" alt="Mujer farmacéutica en dispensario de fármacos")
+              img(src="@/assets/curso/img1.png" alt="Muestra hombre recibiendo atención por lesiones")
             .col-lg-4_5.col-z2.f-left(data-aos="fade-right")
               .contenedor3c.p-4
                 p “Cualquier ciudadano que sufra lesiones traumáticas graves, tiene un margen de 60 minutos para sobrevivir”.
@@ -29,17 +29,17 @@
     .row.justify-content-center.mb-5
       .col-lg-9
         .tarjeta-avatar-b.mb-5
-          img(src='@/assets/curso/img2.svg' alt='AvatarTop')
+          img(src='@/assets/curso/img2.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul.d-flex.align-items-center
             .p-4
               p.mb-0 Si se mantiene el flujo de oxígeno al cerebro después de un paro cardíaco, se podrá revivir a la persona sin consecuencias irreversibles.
         .tarjeta-avatar-b.mb-5
-          img(src='@/assets/curso/img3.svg' alt='AvatarTop')
+          img(src='@/assets/curso/img3.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul.d-flex.align-items-center
             .p-4
               p.mb-0 Si una hemorragia se logra contener, se evitarán el shock y la muerte por la pérdida de sangre.
         .tarjeta-avatar-b
-          img(src='@/assets/curso/img4.svg' alt='AvatarTop')
+          img(src='@/assets/curso/img4.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul.d-flex.align-items-center
             .p-4
               p.mb-0 Si se sabe cómo evaluar el lugar donde ocurre el accidente, se podrá evitar un daño mayor o ser una víctima más, al tratar de socorrer al herido.
@@ -49,7 +49,7 @@
     .row.justify-content-center
       .col-10
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/img5.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/img5.svg', alt='Imágen decorativa')
 
 </template>
 
