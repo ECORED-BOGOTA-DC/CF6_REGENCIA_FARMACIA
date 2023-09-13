@@ -189,7 +189,7 @@
         figure(data-aos="fade-left")
           img(src='@/assets/curso/img12.png', style="width: 450px", alt='Imágen decorativa').m-auto
     .row.justify-content-center.mb-5
-      .col-6
+      .col-lg-6
         .cajon.color-primario.p-4(data-aos="flip-down")
           p.mb-0 Si usted no sabe nadar, por favor absténgase de intentarlo; permita que alguien con experiencia extraiga a la persona del agua.
     .h4.mb-4(data-aos="fade-right") Procedimiento de primeros auxilios

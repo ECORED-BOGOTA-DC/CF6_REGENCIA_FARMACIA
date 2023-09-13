@@ -69,19 +69,19 @@
           .col-lg-8
             .h5.mb-4(data-aos="fade-left") ¿Cómo se puede valorar?
             .row.mb-4.align-items-center(data-aos="fade-left")
-              .col-auto.d-inline
+              .col-lg-auto.d-inline
                 figure
                   img(src='@/assets/curso/img20.svg', style="max-width: 70px;", alt='Imágen decorativa')
               .col
                 p.mb-0 Presione el lecho ungueal en 2 o 3 dedos (sin esmalte) del paciente. Con la presión, la sangre ha sido forzada a salir del tejido bajo la uña, lo cual se denomina palidez.
             .row.mb-4.align-items-center(data-aos="fade-left")
-              .col-auto.d-inline
+              .col-lg-auto.d-inline
                 figure
                   img(src='@/assets/curso/img21.svg', style="max-width: 70px;", alt='Imágen decorativa')
               .col
                 p.mb-0 Una vez que el tejido ha palidecido, se quita la presión.
             .row.mb-4.align-items-center(data-aos="fade-left")
-              .col-auto.d-inline
+              .col-lg-auto.d-inline
                 figure
                   img(src='@/assets/curso/img22.svg', style="max-width: 70px;", alt='Imágen decorativa')
               .col

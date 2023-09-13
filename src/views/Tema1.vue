@@ -66,19 +66,19 @@
     p(data-aos="fade-right") Está constituido por un complejo sistema de conductos y vasos sanguíneos, por los cuales circula la sangre impulsada por una bomba, el corazón; y por el sistema linfático, formado por una red de vasos y tejido linfático distribuidos por todo el cuerpo.
     p.mb-5(data-aos="fade-left") El aparato cardiocirculatorio permite mantener la homeostasis y llevar a cabo las siguientes funciones:
     .row.justify-content-center
-      .col-8
+      .col-10.col-lg-8
         .row.align-items-center.mb-3(data-aos="fade-right")
-          .col-auto.d-inline
+          .col-lg-auto.d-inline
             img(src='@/assets/curso/img20.svg', style="max-width: 80px;", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Transportar a todas las células del organismo las sustancias que necesitan para su correcto funcionamiento: nutrientes, oxígeno y sustancias reguladoras; al mismo tiempo recoger los productos resultantes del metabolismo para llevarlos a los lugares de la transformación, utilización y desecho.
         .row.align-items-center.mb-3(data-aos="fade-left")
-          .col-auto.d-inline
+          .col-lg-auto.d-inline
             img(src='@/assets/curso/img21.svg', style="max-width: 80px;", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Transportar las células encargadas de los mecanismos de defensa allí donde sean necesarias.
         .row.align-items-center.mb-5(data-aos="fade-right")
-          .col-auto.d-inline
+          .col-lg-auto.d-inline
             img(src='@/assets/curso/img22.svg', style="max-width: 80px;", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Distribuir las hormonas que se utilizan en los procesos de regulación metabólica.
@@ -259,11 +259,11 @@
     #t_1_6
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6 Salud mental
-    .row.align-items-center.mb-5
-      .col-4
-        figure(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-6.col-lg-4
+        figure.mb-3(data-aos="fade-right")
           img(src='@/assets/curso/img30.svg', style="max-width: 250px;", alt='Imágen decorativa').m-auto
-      .col-6
+      .col-lg-6
         p(data-aos="fade-left") Es un estado dinámico que se expresa en la vida cotidiana a través del comportamiento y la interacción del individuo y de los colectivos: desplegar sus recursos emocionales, cognitivos y mentales, para transitar por la vida diaria, para trabajar, establecer relaciones significativas y contribuir con la comunidad.
     .row.justify-content-center.mb-5
       .col-11
@@ -278,7 +278,7 @@
                 p.d-flex.justify-content-end #[b OMS (1948)]
     p.mb-5(data-aos="fade-right") La salud mental individual está determinada por múltiples factores sociales, psicológicos y biológicos y se asocia por ejemplo, a:
     .row.align-items-center.mb-5
-      .col-6
+      .col-lg-6
         ul.lista-ul.ms-5
           li(data-aos="fade-up") 
             i.fas.fa-atom(style="color: #7E5EE3")
@@ -301,7 +301,7 @@
           li(data-aos="fade-up") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Las violaciones de los derechos humanos.
-      .col-6
+      .col-lg-6
         .cajon.color-primario.p-4(data-aos="flip-down")
           p.mb-0 #[b Para tener en cuenta]: existen factores psicológicos específicos de la personalidad que hacen que una persona sea más vulnerable a los problemas de la vida diaria.
     p.mb-5(data-aos="fade-right") Es importante diferenciar:
