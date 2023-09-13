@@ -7,15 +7,15 @@
       .titulo-principal__numero
         span 5
       h1 Soporte vital básico por grupos etarios
-    p A continuación, se estudiarán la Reanimación Cardiopulmonar Básica (RCP), el protocolo de obstrucción de vía aérea por cuerpo extraño y el ahogamiento por inmersión.
+    p(data-aos="fade-left") A continuación, se estudiarán la Reanimación Cardiopulmonar Básica (RCP), el protocolo de obstrucción de vía aérea por cuerpo extraño y el ahogamiento por inmersión.
     separador.mb-5
     #t_5_1
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.1 Reanimación Cardiopulmonar Básica (RCP)
-    p Es importante tener presente que la #[b cadena de supervivencia] es el conjunto de medidas regladas y secuenciales que tenemos que seguir para actuar correctamente a la hora de atender a una persona que ha sufrido una parada cardiorrespiratoria, en el área extrahospitalaria.
-    p.mb-5 La siguiente figura presenta el orden en que se debe realizar la valoración primaria del estado de conciencia.
+    p(data-aos="fade-left") Es importante tener presente que la #[b cadena de supervivencia] es el conjunto de medidas regladas y secuenciales que tenemos que seguir para actuar correctamente a la hora de atender a una persona que ha sufrido una parada cardiorrespiratoria, en el área extrahospitalaria.
+    p.mb-5(data-aos="fade-left") La siguiente figura presenta el orden en que se debe realizar la valoración primaria del estado de conciencia.
 
-    .titulo-sexto.border-titulo.mb-3
+    .titulo-sexto.border-titulo.mb-3(data-aos="fade-left")
       h5 Figura 13.
       span Cadenas de supervivencia de la AHA para adultos con PCEH (paro cardíaco extrahospitalario)
 
@@ -24,19 +24,19 @@
 
     p.text-center.mb-5 Nota. Con base en la American Heart Association (2020)
 
-    p.mb-4 El Soporte Vital Básico (SVB) incluye los tres primeros eslabones de esta cadena de supervivencia:
+    p.mb-4(data-aos="fade-right") El Soporte Vital Básico (SVB) incluye los tres primeros eslabones de esta cadena de supervivencia:
     ul.lista-ul.ms-5
-      li 
+      li(data-aos="fade-up") 
         i.fas.fa-atom(style="color: #7E5EE3")
         | Reconocimiento de la PCR y petición de ayuda.
-      li 
+      li(data-aos="fade-up") 
         i.fas.fa-atom(style="color: #7E5EE3")
         | RCP básica hasta que llegue la ayuda.
-      li 
+      li(data-aos="fade-up") 
         i.fas.fa-atom(style="color: #7E5EE3")
         | Desfibrilación precoz.
-    p.mb-5 Profundice el estudio de cada uno de ellos a través de la siguiente figura.
-    .h3.mb-5 PCEH
+    p.mb-5(data-aos="fade-left") Profundice el estudio de cada uno de ellos a través de la siguiente figura.
+    .h3.mb-5(data-aos="fade-right") PCEH
     LineaTiempoD.color-primario
       .row(numero="1" titulo="Seguridad del lugar").align-items-center
         .col-md-4.mb-4.mb-md-0
@@ -122,27 +122,27 @@
           p No se debe interrumpir la reanimación hasta que el paciente muestre signos de vida, hasta que lleguen los profesionales sanitarios o hasta que la persona que reanima, esté agotada o exista peligro para su integridad.
     separador.mb-5
     #t_5_2
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.2 Protocolo de Ovace (obstrucción de vía aérea por cuerpo extraño)
     .row.align-items-center.bg-color12.mb-5
       .col-lg-4
-        figure(data-aos="fade-left")
+        figure(data-aos="fade-right")
           img(src='@/assets/curso/img11.png', style="width: 350px", alt='Imágen decorativa').m-auto
       .col-lg-8
-        p La Obstrucción de la Vía Aérea por Cuerpo Extraño (Ovace), sucede cuando la persona se atraganta o atora con un cuerpo sólido o con líquidos, como alimentos, objetos, juguetes, entre otros. Es una situación que pone en peligro la vida, si no se atiende inmediatamente.
-    p Las personas que sufren Ovace suelen hacer una señal universal: llevar sus manos al cuello y toser. La persona se agita e inicialmente su rostro se pone rojo, si la dificultad para respirar aumenta por la obstrucción, se puede observar cianosis (coloración azulada o violácea alrededor de los labios). Se puede manifestar dificultad para hablar, sonido extraño al respirar y, en ocasiones, pérdida de conocimiento.
-    p.mb-5 Se pueden presentar dos tipos de obstrucción:
+        p(data-aos="fade-left") La Obstrucción de la Vía Aérea por Cuerpo Extraño (Ovace), sucede cuando la persona se atraganta o atora con un cuerpo sólido o con líquidos, como alimentos, objetos, juguetes, entre otros. Es una situación que pone en peligro la vida, si no se atiende inmediatamente.
+    p(data-aos="fade-right") Las personas que sufren Ovace suelen hacer una señal universal: llevar sus manos al cuello y toser. La persona se agita e inicialmente su rostro se pone rojo, si la dificultad para respirar aumenta por la obstrucción, se puede observar cianosis (coloración azulada o violácea alrededor de los labios). Se puede manifestar dificultad para hablar, sonido extraño al respirar y, en ocasiones, pérdida de conocimiento.
+    p.mb-5(data-aos="fade-left") Se pueden presentar dos tipos de obstrucción:
     .row.justify-content-center.mb-5
       .col-8
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/img20.svg' alt='Imágen decorativa')
           .tarjeta.color-acento-botones.d-flex.align-items-center
             .p-4 #[b Obstrucción parcial (o leve)]: la persona puede toser y está consciente; lo que se debe hacer es animarla para que siga tosiendo.
-        .tarjeta-avatar-b
+        .tarjeta-avatar-b(data-aos="fade-left")
           img(src='@/assets/curso/img21.svg' alt='Imágen decorativa')
           .tarjeta.color-acento-botones.d-flex.align-items-center
             .p-4 #[b Obstrucción total (o severa)]: la persona no puede toser, respira con dificultad o no puede hablar. En este caso, se debe iniciar la maniobra de Heimlich (de desobstrucción o desatoramiento), también conocida como el abrazo del oso.
-    p.mb-5 El procedimiento que se debe realizar es el siguiente:
+    p.mb-5(data-aos="fade-right") El procedimiento que se debe realizar es el siguiente:
     .row
       .col-lg-4
         figure.mb-4.mb-lg-0
@@ -163,9 +163,9 @@
             p Si la persona pierde el conocimiento y deja de respirar, active el NUSE 123, donde se le brindará orientación e información, en caso necesario. Si es imprescindible, inicie maniobra RCP básica.
     separador.mb-5
     #t_5_3
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.3 Ahogamiento por inmersión
-    .row.p-4.align-items-center.bg-color11.mb-5
+    .row.p-4.align-items-center.bg-color11.mb-5(data-aos="flip-down")
       .col-lg-4
         figure.mb-4.mb-lg-0
           img(src='@/assets/curso/img64.svg', style="width: 350px", alt='Muestra persona boca arriba cayendo en agua').m-auto
@@ -173,49 +173,49 @@
         p.mb-0 Se produce cuando un ser vivo es incapaz de respirar porque los pulmones que suministran aire al organismo están sumergidos en un líquido; se habla por inmersión cuando el líquido procede de un cuerpo de agua, río, lago, laguna o mar; también se puede presentar en una piscina, bañera o ponchera. El proceso de ahogamiento puede resultar en muerte, de no ser atendido oportuna y correctamente.
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
-        p.mb-4 Las manifestaciones son:
+        p.mb-4(data-aos="fade-right") Las manifestaciones son:
         ul.lista-ul.ms-5
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Pérdida de la conciencia.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Cianosis.
-          li 
+          li(data-aos="fade-up") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | No respira o respira con dificultad.
-        p.mb-0 Una de las primeras maniobras para realizar ante la identificación de un posible ahogamiento por inmersión, es sacar del cuerpo de agua a la persona ahogada; para hacerlo, el primer respondiente debe saber nadar y rescatar, puesto que corre el riesgo de ahogarse al tratar de auxiliar a la víctima. El rescate de una persona que se está ahogando y está consciente resulta muy peligroso para el rescatador; evitar que la víctima lo agarre en su desesperación por salir del agua y es prioritario mantenerse a flote porque podría hundirse con la víctima. Generalmente, cuando la víctima se siente auxiliada, deja de luchar porque se siente salvada, haciendo más difícil el rescate.
+        p.mb-0(data-aos="fade-right") Una de las primeras maniobras para realizar ante la identificación de un posible ahogamiento por inmersión, es sacar del cuerpo de agua a la persona ahogada; para hacerlo, el primer respondiente debe saber nadar y rescatar, puesto que corre el riesgo de ahogarse al tratar de auxiliar a la víctima. El rescate de una persona que se está ahogando y está consciente resulta muy peligroso para el rescatador; evitar que la víctima lo agarre en su desesperación por salir del agua y es prioritario mantenerse a flote porque podría hundirse con la víctima. Generalmente, cuando la víctima se siente auxiliada, deja de luchar porque se siente salvada, haciendo más difícil el rescate.
       .col-lg-6
-        figure(data-aos="fade-right")
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/img12.png', style="width: 450px", alt='Imágen decorativa').m-auto
     .row.justify-content-center.mb-5
       .col-6
-        .cajon.color-primario.p-4
+        .cajon.color-primario.p-4(data-aos="flip-down")
           p.mb-0 Si usted no sabe nadar, por favor absténgase de intentarlo; permita que alguien con experiencia extraiga a la persona del agua.
-    .h4.mb-4 Procedimiento de primeros auxilios
+    .h4.mb-4(data-aos="fade-right") Procedimiento de primeros auxilios
     .row.justify-content-center
-      p.mb-5 Activar el SEM llamando al 123 e iniciar las maniobras de reanimación:
+      p.mb-5(data-aos="fade-left") Activar el SEM llamando al 123 e iniciar las maniobras de reanimación:
       .col-10
         ul.lista-ul--separador.ms-5.fa-ul2
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Acostar a la persona bocabajo, con la cara hacia un lado. Verificar la presencia de algún cuerpo extraño en la boca de la persona.
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Poner las manos de la persona debajo de su cara para protegerla de lesiones.
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Procurar que la boca permanezca abierta.
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Hacer presión firme con ambas manos utilizando el peso del cuerpo, sobre la espalda de la persona para que arroje el agua.
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Repetir el procedimiento cuantas veces sea necesario.
-          li 
+          li(data-aos="fade-left")
             i.fas.fa-atom(style="color: #7E5EE3")
             | Poner a la persona en posición de seguridad y cubrirlo para que recupere el calor corporal.
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Esta persona debe ser valorada en una institución de salud.
       

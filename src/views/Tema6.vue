@@ -7,10 +7,10 @@
       .titulo-principal__numero
         span 6
       h1 Primeros auxilios
-    p.mb-5 A continuación, se estudiarán los primeros auxilios que deben ser aplicados en diferentes situaciones.
+    p.mb-5(data-aos="fade-right") A continuación, se estudiarán los primeros auxilios que deben ser aplicados en diferentes situaciones.
     .row.justify-content-center
       .col-11
-        .tarjeta.color-primario.p-3(data-aos="fade-right")
+        .tarjeta.color-primario.p-3(data-aos="flip-down")
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1
               img(src="@/assets/curso/img65.svg", alt='Imágen decorativa')

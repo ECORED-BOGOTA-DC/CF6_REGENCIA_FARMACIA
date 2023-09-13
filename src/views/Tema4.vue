@@ -7,8 +7,8 @@
       .titulo-principal__numero
         span 4
       h1 Valoración de la escena
-    p El principio fundamental de acceso a la zona de impacto en una emergencia, es evitar efectos secundarios que puedan afectar al personal que acude a prestar asistencia a las potenciales víctimas.
-    p.mb-5 En la valoración de la escena se debe tener presente:
+    p(data-aos="fade-right") El principio fundamental de acceso a la zona de impacto en una emergencia, es evitar efectos secundarios que puedan afectar al personal que acude a prestar asistencia a las potenciales víctimas.
+    p.mb-5(data-aos="fade-left") En la valoración de la escena se debe tener presente:
     .tarjeta.color-acento-botones.p-4.p-md-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
@@ -24,27 +24,27 @@
             i.fas.fa-file-download(style="color: #000000 !important")
     separador.mb-5
     #t_4_1
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.1 Valoración primaria
-    p.mb-5 La siguiente figura presenta el orden en que se debe realizar la valoración primaria del estado de conciencia.
+    p.mb-5(data-aos="fade-left") La siguiente figura presenta el orden en que se debe realizar la valoración primaria del estado de conciencia.
     .row.p-4.bg-color10
       .col-12
 
-        .titulo-sexto.border-titulo.mb-5
+        .titulo-sexto.border-titulo.mb-5(data-aos="fade-right")
             h5 Figura 11.
             span Valoración primaria
 
-        figure
+        figure(data-aos="fade-left")
           img(src='@/assets/curso/img49.svg', style="max-width: 1200px;", alt='Imagen muestra imagen los textos de una valoración primaria:<br>INICIO<br>Garantizar la seguridad de la escena.<br>Revisar lospeligos potenciales.<br>Uso de EPP.<br>Garantizar el uso de bioseguridad.<br>Evalúe nivel de respuesta.<br>A alerta<br>V verbal<br>D dolor<br>I inconsciente<br>¿Paciente consciente?<br>SÍ<br>Inicie entrevista y brinde apoyo emocional.<br>Realizar examen físico detallado y control de signos vitales.<br>Determinar la necesidad de traslado.<br>Evacuar a Centro Asistencial.<br>FIN<br>NO<br>Abrir vía aérea.<br>Usar empuje mandibular.<br>Evaluar respiración.<br>M mirar<br>E escuchar<br>S sentir<br>¿Respira?<br>SÍ<br>Buscar y controlar hemorragias.<br>NO<br>Inicie protocolo de RCP.<br>Hasta que el paciente responda o reciba apoyo médico.').m-auto
     separador.mb-5
     #t_4_2
-    .titulo-segundo.color-acento-contenido
+    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2 Valoración secundaria examen físico céfalo-caudal
-    p.mb-5 Realizada la valoración primaria, se hace la secundaria, cuyos pasos se encuentran explicados en la siguiente figura.
+    p.mb-5(data-aos="fade-left") Realizada la valoración primaria, se hace la secundaria, cuyos pasos se encuentran explicados en la siguiente figura.
     .row.p-4.bg-color10
       .col-12
 
-        .titulo-sexto.border-titulo.mb-5
+        .titulo-sexto.border-titulo.mb-5(data-aos="fade-right")
           h5 Figura 12.
           span Valoración secundaria
 

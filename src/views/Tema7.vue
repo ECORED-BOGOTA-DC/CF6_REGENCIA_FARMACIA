@@ -17,19 +17,19 @@
     .row.justify-content-center
       .col-10
         ul.lista-ul--separador.ms-5.fa-ul2
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | La información que se transmite debe ser clara, concreta y completa, de tal manera que durante el traslado al centro asistencial la persona lesionada continúe con el manejo oportuno hasta el arribo al servicio de urgencias donde será atendido.
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | La seguridad de la persona lesionada se ve afectada cuando el personal paramédico que recibe al paciente no cuenta con la información precisa, completa o adecuada y a tiempo.
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Se debe asegurar que el receptor del paciente recibirá como mínimo la información crítica del paciente: nombre, edad, evento o incidente, situación en que fue encontrado y acciones de primeros auxilios realizadas. Es muy importante referir los tiempos de inicio y finalización de las maniobras o procedimientos realizados.
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Así mismo, relacionar la respuesta de la persona lesionada ante procedimientos realizados.
-          li 
+          li(data-aos="fade-left") 
             i.fas.fa-atom(style="color: #7E5EE3")
             | Y entregar las pertenencias o un informe detallado de los elementos entregados a familiares y/o acompañantes de la víctima.
       
