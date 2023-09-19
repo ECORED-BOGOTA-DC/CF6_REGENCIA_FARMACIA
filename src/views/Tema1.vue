@@ -2,33 +2,30 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Conceptos básicos de anatomía y fisiología
     p.mb-5(data-aos="fade-right") Para comenzar, se definen estos conceptos:
     .row.justify-content-around.align-items-center
-      .col-lg-5(data-aos="fade-left")
+      .col-md-9.col-lg-5(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/img6.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul
             .p-4
-              p #[b Anatomía]: estudio de la forma y la estructura del cuerpo humano.
-      .col-lg-5(data-aos="fade-right")
+              p.mb-0.py-4 #[b Anatomía]: estudio de la forma y la estructura del cuerpo humano.
+      .col-md-9.col-lg-5(data-aos="fade-right")
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/img7.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul
             .p-4
-              p.mb-0 #[b Fisiología]: estudio de las funciones del organismo y de los mecanismos de regulación.
+              p.mb-0.py-4 #[b Fisiología]: estudio de las funciones del organismo y de los mecanismos de regulación.
     p.mb-5(data-aos="fade-left") Para la revisión de los conceptos generales de la anatomía y la fisiología del cuerpo, se revisarán las diferentes estructuras, desde las más sencillas hasta las más complejas, como lo presenta la siguiente imagen.
-
     .titulo-sexto.border-titulo.mb-3(data-aos="fade-right")
       h5 Figura 1.
       span Desde la célula hasta el organismo
-
     figure(data-aos="fade-left")
       img(src='@/assets/curso/img8.svg', style="max-width: 1000px;", alt='Muestra infografía de concepto de anatomía donde describe desde la célula hasta el organismo.  Debajo de la imagen el paso a paso descrito.').m-auto
-
     p.mb-5(data-aos="fade-right") Un tejido es un conjunto de células organizadas con una tarea específica; y existen cuatro tipos de tejidos básicos, los cuales muestran patrones de organización, que solo se pueden observar a través de un microscopio, y se clasifican de la siguiente manera:
     SlyderB.bg-color1.p-4.mb-5(:datos="datosSlyder")
     .h4(data-aos="fade-left") Posición anatómica
@@ -47,38 +44,34 @@
         .cajon.color-primario.p-4.mb-4
           p El cuerpo humano se considera como si estuviera de pie con los brazos y piernas extendidas, cabeza erguida mirando al frente, antebrazos girados con las palmas de las manos ubicadas hacia adelante y los pies uno al lado del otro, apoyados en el piso. El cuerpo, en esta posición, se considera descrito por un observador (en este caso el primer respondiente) ubicado frente al cuerpo que describe las estructuras usando como referencia el cuerpo a describir (persona lesionada o con enfermedad súbita) y no la ubicación del observador.
     p.mb-5(data-aos="fade-left") A partir de la posición anatómica, se deberá describir una determinada estructura ubicándola, espacialmente, en relación con otras estructuras, de acuerdo con los siguientes términos:
-
     .titulo-sexto.border-titulo.mb-3(data-aos="fade-right")
       h5 Figura 3.
       span Posición anatómica - Estructura
-
     figure(data-aos="fade-left").mb-5
       img(src='@/assets/curso/img11.svg', style="max-width: 1200px;", alt='Muestra posición anatómica y se describe en la parte inferior.<br>Derecho. Ubicado a la derecha del cuerpo objeto de estudio (izquierda del observador).').m-auto
-    p(data-aos="fade-right") Esta terminología se emplea de forma constante, aunque el cuerpo se encuentre de pie, boca arriba, boca abajo, o de lado. Por ejemplo, en un cuerpo colocado bocarriba, el corazón siempre se encontrará en posición cefálica o superior al estómago, el hígado estará lateral a la columna vertebral y los riñones se ubicarán inferiores o caudales a las glándulas suprarrenales.
-    separador.mb-5
+    p(data-aos="fade-right").mb-0 Esta terminología se emplea de forma constante, aunque el cuerpo se encuentre de pie, boca arriba, boca abajo, o de lado. Por ejemplo, en un cuerpo colocado bocarriba, el corazón siempre se encontrará en posición cefálica o superior al estómago, el hígado estará lateral a la columna vertebral y los riñones se ubicarán inferiores o caudales a las glándulas suprarrenales.
+    separador
     #t_1_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Sistema cardiovascular
     figure(data-aos="fade-left").mb-5
       img(src='@/assets/curso/img12.svg', style="max-width: 800px;", alt='Imagen de sistema de vasos sanguíneos, corazón y sistema linfático.').m-auto
-
-
     p(data-aos="fade-right") Está constituido por un complejo sistema de conductos y vasos sanguíneos, por los cuales circula la sangre impulsada por una bomba, el corazón; y por el sistema linfático, formado por una red de vasos y tejido linfático distribuidos por todo el cuerpo.
     p.mb-5(data-aos="fade-left") El aparato cardiocirculatorio permite mantener la homeostasis y llevar a cabo las siguientes funciones:
     .row.justify-content-center
       .col-10.col-lg-8
         .row.align-items-center.mb-3(data-aos="fade-right")
-          .col-lg-auto.d-inline
+          .col-lg-auto.d-inline.mb-3.mb-lg-0
             img(src='@/assets/curso/img20.svg', style="max-width: 80px;", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Transportar a todas las células del organismo las sustancias que necesitan para su correcto funcionamiento: nutrientes, oxígeno y sustancias reguladoras; al mismo tiempo recoger los productos resultantes del metabolismo para llevarlos a los lugares de la transformación, utilización y desecho.
         .row.align-items-center.mb-3(data-aos="fade-left")
-          .col-lg-auto.d-inline
+          .col-lg-auto.d-inline.mb-3.mb-lg-0
             img(src='@/assets/curso/img21.svg', style="max-width: 80px;", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Transportar las células encargadas de los mecanismos de defensa allí donde sean necesarias.
         .row.align-items-center.mb-5(data-aos="fade-right")
-          .col-lg-auto.d-inline
+          .col-lg-auto.d-inline.mb-3.mb-lg-0
             img(src='@/assets/curso/img22.svg', style="max-width: 80px;", alt='Imágen decorativa').m-auto
           .col
             p.mb-0 Distribuir las hormonas que se utilizan en los procesos de regulación metabólica.
@@ -90,16 +83,14 @@
           span Sistemas linfático y cardiovascular
         figure(data-aos="fade-left").mb-5
           img(src='@/assets/curso/img13.svg', style="max-width: 1100px;", alt='Muestra sistema linfático y sistema cardiovascular que se describe en la parte inferior de la imagen').m-auto
-
     p.my-5(data-aos="fade-left") El movimiento de la sangre a través del corazón y por todo el cuerpo se llama circulación. La siguiente figura explica más ampliamente el concepto.
     .titulo-sexto.border-titulo.mb-3(data-aos="fade-right")
       h5 Figura 5.
       span Sistema circulatorio
     figure(data-aos="fade-left").mb-5.bg-color4
       img(src='@/assets/curso/img14.svg', style="max-width: 1100px;", alt='Muestra sistema circulatorio y se describe parte inferior imagen').m-auto
-
-    p(data-aos="fade-left") El proceso de la circulación se divide en dos fases o ciclos: circulación mayor o sistémica (izquierda) y circulación menor o pulmonar (derecha). Para conocer cada uno de ellos, se debe visitar en el material complementario el video Circulación menor y mayor.
-    separador.mb-5
+    p(data-aos="fade-left").mb-0 El proceso de la circulación se divide en dos fases o ciclos: circulación mayor o sistémica (izquierda) y circulación menor o pulmonar (derecha). Para conocer cada uno de ellos, se debe visitar en el material complementario el video Circulación menor y mayor.
+    separador
     #t_1_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Sistema respiratorio
@@ -133,14 +124,12 @@
           .tarjeta.color-acento-botones.p-3(x="20.2%" y="80.2%")
             .h5.mb-2 Aveolos
             p Los bronquiolos terminan en pequeños sacos de aire llamados "alveolos", donde ocurre el intercambio de oxígeno y dióxido de carbono. Cada persona tiene cientos de millones de alveolos en los pulmones.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center
       .col-lg-10
         .cajon.color-primario.p-4(data-aos="flip-down")
           p La red de alvéolos, bronquiolos y bronquios recibe el nombre de “árbol bronquial”.
-
           p.mb-0 La cavidad torácica, o tórax, es el espacio que aloja al árbol bronquial, los pulmones, el corazón y otras estructuras. La parte superior y los costados del tórax están formados por las costillas y los músculos unidos a ellas, y la parte inferior está formada por un músculo de gran tamaño denominado “diafragma”. Las paredes del tórax forman una protección alrededor de los pulmones y otros órganos presentes en la cavidad torácica.
-
-    separador.mb-5
+    separador
     #t_1_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.3 Sistema nervioso
@@ -171,11 +160,9 @@
           img(src='@/assets/curso/img22.svg' alt='Imágen decorativa')
           .tarjeta.color-acento-botones.d-flex.align-items-center
             .p-4 #[b Motora]: provoca respuestas de músculos o glándulas, estimulando los órganos y vísceras para que actúen o se inhiban.
-            
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0
         p(data-aos="fade-right") El sistema nervioso es el más complejo y altamente organizado del cuerpo humano; recibe información de los órganos sensoriales (la piel, los ojos, la lengua, el oído, etc.) mediante nervios, transmite la información a través de la médula espinal y la procesa en el encéfalo. El sistema nervioso dirige las reacciones del cuerpo hacia el mundo, y controla también la mayoría de las funciones internas, desde el movimiento muscular y la dilatación de los vasos sanguíneos hasta el aprendizaje de los datos anatómicos y fisiológicos.
-        
         p(data-aos="fade-right") El cerebro funciona como una computadora que controla todas las funciones del cuerpo humano. El resto del sistema nervioso viene a ser una red o entramado que envía mensajes en ambos sentidos entre el cerebro y distintas partes del cuerpo. Lo hace a través de la médula espinal, que desciende por la espalda desde el cerebro. Contiene nervios en su interior, unos filamentos que se ramifican hacia los demás órganos y partes del cuerpo. Cuando llega un mensaje al cerebro procedente de cualquier parte del cuerpo, este envía al cuerpo un mensaje de respuesta sobre cómo reaccionar.
       .col-lg-6
         figure(data-aos="fade-left")
@@ -183,15 +170,12 @@
     .row.bg-color7
       .col-12
         p(data-aos="fade-left") El sistema nervioso está compuesto por:
-
         .titulo-sexto.border-titulo.mb-3(data-aos="fade-right")
           h5 Figura 6.
           span Composición del sistema nervioso
-
         figure.mb-4.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/img24.svg', style="max-width: 1200px;", alt='Muestra sistema nervioso y sus componentes:<br>Sistema nervioso central<br>Cerebro<br>Médula espinal<br>Se encarga de procesar la información que seleccionan los sentidos para responder acciones conscientes.<br>Sistema nervioso periférico<br>Nervios<br>Ganglios<br>Receptores sensoriales<br>Sistema Nervioso Somático (SNS)<br>Sistema Nervioso Autónomo (SNA)<br>Nervios sensitivos<br>Nervios motores<br>Nervios mixtos<br>Ssitema nervioso:<br>Simpático<br>Parasimpático').m-auto
-
-    separador.mb-5
+    separador
     #t_1_4
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4 Aparato locomotor
@@ -204,7 +188,6 @@
           span Composición del aparato locomotor
         figure.mb-4.mb-lg-0(data-aos="fade-left")
           img(src='@/assets/curso/img26.svg', style="max-width: 1200px;", alt='Muestra composición del aparato locomotor y en la parte inferior se describen.').m-auto
-
     p.mb-5(data-aos="fade-right") Es importante dividir el esqueleto en dos para su estudio y comprensión:
     .tarjeta--container.row.mb-5(data-aos="flip-down")
       .col-md.tarjeta.color-primario.p-5
@@ -240,7 +223,7 @@
           .col-lg-6
             figure(data-aos="fade-right")
               img(src='@/assets/curso/img6.png', style="max-width: 350px;", alt='Imágen decorativa').m-auto
-    separador.mb-5
+    separador
     #t_1_5
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5 Sistema digestivo
@@ -253,9 +236,8 @@
             span Composición del sistema digestivo
           figure(data-aos="fade-left")
             img(src='@/assets/curso/img29.svg', style="max-width: 1100px;", alt='Muestra sistema digestivo donde identifica:<br>Boca<br>Glándulas salivales<br>Hígado<br>Vesícula biliar<br>Duodeno<br>Apéndice<br>Recto<br>Faringe<br>Esófaco<br>Estómago<br>Páncreas<br>Intestino delgado<br>Intestino grueso<br>Ano').m-auto
-            
-    p(data-aos="fade-left") Para conocer el proceso de digestión, se invita a visitar el video Sistema digestivo – Proceso de la digestión que se encuentra en el material complementario.
-    separador.mb-5
+    p(data-aos="fade-left").mb-0 Para conocer el proceso de digestión, se invita a visitar el video Sistema digestivo – Proceso de la digestión que se encuentra en el material complementario.
+    separador
     #t_1_6
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6 Salud mental
@@ -265,7 +247,7 @@
           img(src='@/assets/curso/img30.svg', style="max-width: 250px;", alt='Imágen decorativa').m-auto
       .col-lg-6
         p(data-aos="fade-left") Es un estado dinámico que se expresa en la vida cotidiana a través del comportamiento y la interacción del individuo y de los colectivos: desplegar sus recursos emocionales, cognitivos y mentales, para transitar por la vida diaria, para trabajar, establecer relaciones significativas y contribuir con la comunidad.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-0.mb-lg-5
       .col-11
         .contenedor__bbg5
           .row.traslape2
@@ -276,9 +258,9 @@
                 p La salud mental es un componente integral y esencial de la salud. Al respecto, la OMS (1948) dice:
                 p “La salud es un estado de completo bienestar físico, mental y social, y no solamente la ausencia de afecciones o enfermedades”.
                 p.d-flex.justify-content-end #[b OMS (1948)]
-    p.mb-5(data-aos="fade-right") La salud mental individual está determinada por múltiples factores sociales, psicológicos y biológicos y se asocia por ejemplo, a:
+    p.mb-4(data-aos="fade-right") La salud mental individual está determinada por múltiples factores sociales, psicológicos y biológicos y se asocia por ejemplo, a:
     .row.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6.mb-4.mb-lg-0
         ul.lista-ul.ms-5
           li(data-aos="fade-up") 
             i.fas.fa-atom(style="color: #7E5EE3")
@@ -307,17 +289,17 @@
     p.mb-5(data-aos="fade-right") Es importante diferenciar:
     LineaTiempoD.color-primario.mb-5
       .row(numero="1" titulo="Enfermedad mental").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img31.svg', style="width: 250px", alt='Imágen decorativa').m-auto
-        .col-md-6
+        .col-lg-6
           p Se puede definir como una alteración de tipo biológico, psicológico y social que se manifiesta mediante el pensamiento, las emociones, los sentimientos y la conducta de las personas.
           p Cuando una persona padece de una enfermedad mental o afectiva, se alteran todas las áreas que integran al individuo o al ser humano; por ejemplo: la social, la académica y la laboral.
       .row(numero="2" titulo="Trastorno mental").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img32.svg', style="width: 250px", alt='Imágen decorativa').m-auto
-        .col-md-6
+        .col-lg-6
           p Es el síndrome caracterizado por una alteración clínicamente significativa del estado cognitivo, la regulación emocional o el comportamiento del individuo que refleja una disfunción de los procesos psicológicos, biológicos o del desarrollo que subyacen en su función mental.
           p Generan en el individuo dependencias y discapacidades sociales que, de no ser tratadas por profesionales o no tener adherencia a los tratamientos farmacológicos, pueden llegar a alterar la armonía y bienestar de la comunidad en la cual se desarrollan.
     .h3(data-aos="fade-right") ¿Qué es una crisis en salud mental?

@@ -173,7 +173,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/material.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -382,9 +382,9 @@ export default {
         },
         {
           nombre: 'Liliana Victoria Morales Gualdró',
-          cargo: 'Responsable de línea de producció',
+          cargo: 'Responsable de línea de producción',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -393,33 +393,33 @@ export default {
       autores: [
         {
           nombre: 'Emilia Sarmiento Mora',
-          cargo: 'Profesional Experta Temática',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia. ',
+          cargo: 'Profesional experta temática',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo:
-            'Diseñadora Instruccional - Revisora Metodológica y Pedagógica',
+            'Diseñadora instruccional - Revisora metodológica y pedagógica',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Asesor pedagógico',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander.',
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
           nombre: 'José Gabriel Ortiz Abella',
           cargo: 'Revisión y corrección de estilo',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Gloria Amparo López Escudero',
-          cargo: 'Adecuación instrucciona',
+          cargo: 'Adecuación instruccional',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Andrés Felipe Velandia Espitia',
@@ -434,34 +434,22 @@ export default {
       autores: [
         {
           nombre: 'Jesús Antonio Vecino Valero',
-          cargo: 'Diseño web',
+          cargo: 'Diseño web - 2023',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Manuel Felipe Echavarría Orozco',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Manuel Felipe Echavarria Orozco',
+          cargo: 'Desarrollo fullstack - 2023',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
-        //{
-        //nombre: 'Lady Adriana Ariza Luque',
-        //cargo: 'Animación y Producción audiovisual',
-        //centro:
-        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
-        //},
-        //{
-        //nombre: 'Laura Gisselle Murcia Pardo',
-        //cargo: 'Animación y producción audiovisual',
-        //centro:
-        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
-        //},
-        //{
-        //nombre: 'Ernesto Navarro Jaimes',
-        //cargo: 'Animación y producción audiovisual',
-        //centro:
-        //'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
-        //},
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
       ],
     },
     {
@@ -471,19 +459,20 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Leyson Fabian Castaño Pérez',
           cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

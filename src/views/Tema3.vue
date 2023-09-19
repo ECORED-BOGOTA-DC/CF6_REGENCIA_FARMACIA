@@ -2,15 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Bioseguridad
     p(data-aos="fade-left") Es el conjunto de principios, normas, protocolos, tecnologías y prácticas que se implementan en cualquier entorno, con el objetivo de evitar o minimizar el riesgo para la salud y el medio ambiente, ante la exposición a agentes biológicos causantes de enfermedades infecciosas, tóxicas o alérgicas.
     p(data-aos="fade-right") Este protocolo se orienta a minimizar los factores que pueden generar la transmisión de la enfermedad y deberá ser implementado por el primer respondiente o auxiliador, en el momento de atender un incidente o evento donde se requiera desarrollar acciones de primeros auxilios.
     p.mb-5(data-aos="fade-left") Las responsabilidades del primer respondiente son:
-    SlyderB.bg-color1.p-4.mb-5(:datos="datosSlyder")
+    SlyderB.bg-color1.p-4.mb-5(:datos="datosSlyder")(data-aos="fade-right")
     p.mb-5(data-aos="fade-right") Y las medidas generales que deben tener presentes, son:
     .row.justify-content-center
       .col-lg-10.bg-color10.mb-5

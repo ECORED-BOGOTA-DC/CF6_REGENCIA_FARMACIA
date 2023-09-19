@@ -2,28 +2,23 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Soporte vital básico por grupos etarios
     p(data-aos="fade-left") A continuación, se estudiarán la Reanimación Cardiopulmonar Básica (RCP), el protocolo de obstrucción de vía aérea por cuerpo extraño y el ahogamiento por inmersión.
-    separador.mb-5
+    separador
     #t_5_1
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.1 Reanimación Cardiopulmonar Básica (RCP)
     p(data-aos="fade-left") Es importante tener presente que la #[b cadena de supervivencia] es el conjunto de medidas regladas y secuenciales que tenemos que seguir para actuar correctamente a la hora de atender a una persona que ha sufrido una parada cardiorrespiratoria, en el área extrahospitalaria.
     p.mb-5(data-aos="fade-left") La siguiente figura presenta el orden en que se debe realizar la valoración primaria del estado de conciencia.
-
     .titulo-sexto.border-titulo.mb-3(data-aos="fade-left")
       h5 Figura 13.
       span Cadenas de supervivencia de la AHA para adultos con PCEH (paro cardíaco extrahospitalario)
-
     figure.mb-3(data-aos="fade-right")
       img(src='@/assets/curso/img10a.svg', style="max-width: 1000px;", alt='Muestra imagen de cadenas de supervivencia de la AHA para adultos con PCEH (paro cardíaco extrahospitalario)<br>Activación de la respuesta a emergencias.<br>RCP de alta calidad.<br>Desfibrilación.<br>Soporte vital avanzado.<br>Cuidados postparo cardíaco.<br>Recuperación.').m-auto
-
     p.text-center.mb-5 Nota. Con base en la American Heart Association (2020)
-
     p.mb-4(data-aos="fade-right") El Soporte Vital Básico (SVB) incluye los tres primeros eslabones de esta cadena de supervivencia:
     ul.lista-ul.ms-5
       li(data-aos="fade-up") 
@@ -39,44 +34,44 @@
     .h3.mb-5(data-aos="fade-right") PCEH
     LineaTiempoD.color-primario
       .row(numero="1" titulo="Seguridad del lugar").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img51.svg', style="width: 250px", alt='Imagen de seguridad del lugar, hombre en el suelo y otro inspeccionando,  se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p Asegurarse de que el entorno es seguro para los reanimadores y para la víctima. 
       .row(numero="2" titulo="Valorar el nivel de consciencia").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img52.svg', style="width: 250px", alt='Imagen de valor nivel de consciencia,  se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p Acercarse a la víctima y preguntarle cómo está. Si responde, se mueve o respira con normalidad, significa que está consciente y debe solicitar ayuda; no mover a la víctima y evaluar el estado continuamente. Si no responde, está inconsciente, pida ayuda, y coloque al paciente bocarriba.
       .row(numero="3" titulo="Apertura de la vía aérea (maniobra frente-mentón) y comprobación de la respiración").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img53.svg', style="width: 250px", alt='Muestra imagen de apertura de la vía aérea (maniobra frente-mentón) y comprobación de la respiración se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p Arrodillarse al lado del paciente, colocarlo bocarriba en una superficie firme. 
           p Colocar una mano en la frente e inclinar la cabeza hacia atrás.
           p.mb-0 Poner la yema de los dedos de la otra mano, bajo el mentón y elevarlo para abrir la vía aérea.
       .row(numero="4" titulo="Comprobación de la respiración").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img54.svg', style="width: 250px", alt='Muestra Comprobación de la respiración,  se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p Con la vía aérea abierta, comprobar la respiración a través de VOS: VER si el pecho se hincha – OÍR ruidos respiratorios pegando el oído a la boca – SENTIR si hay respiración aproximando la mejilla a la boca-nariz de la víctima. 
           p Si la víctima respira, ponerla en posición lateral de seguridad (siempre que no existan lesiones que lo impidan) y reevaluar la situación.
           p.mb-0 Si la víctima no respira o la respiración es ineficaz, asumir que está en parada y comenzar con las maniobras de RCP.
       .row(numero="5" titulo="Avisar a los servicios de emergencias").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img55.svg', style="width: 250px", alt='Muestra imagen de  Avisar a los servicios de emergencias,  se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p Si la víctima está en parada cardiorrespiratoria y la persona que reanima se encuentra solo, llamar al 123 y buscar el DEA si está disponible, antes de iniciar la RCP. Si hay otro reanimador, uno realiza la RCP y el otro llama y recoge el DEA.
       .row(numero="6" titulo="Compresiones torácicas").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img56.svg', style="width: 250px", alt='Muestra imagen de Compresiones torácicas,  se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p Arrodillarse al lado de la víctima, manteniendo la verticalidad sobre ella. 
           p Colocar el talón de una mano en el centro del pecho de la víctima, poner la otra mano encima de la primera, entrelazando los p dedos tratando de apoyar solo el talón de la mano que está debajo (evitando presionar también las costillas).
           p Profundidad adecuada, descendiendo el esternón al menos 5 cm y máximo 6 cm.
@@ -84,47 +79,47 @@
           p Permitir una expansión completa del tórax entre una compresión y la siguiente, evitando apoyarse sobre el tórax entre las p compresiones.
           p.mb-0 Reducir al mínimo las interrupciones (menos de 10 segundos) entre los ciclos.
       .row(numero="7" titulo="Profundidad de las compresiones").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img57.svg', style="width: 250px", alt='Muestra imagen de Profundidad de las compresiones, donde especifica de 5 a 6 cm nunca superior').m-auto
-        .col-md-6
+        .col-lg-6
           p 5 o 6 cm (nunca superior a 6 cm).
       .row(numero="8" titulo="Frecuencia de las compresiones").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img58.svg', style="width: 250px", alt='Muestra imagen de como es la frecuencia de compresiones, se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p 100 – 120 compresiones por minuto, permitiendo que entre las compresiones, el pecho se eleve completamente.
       .row(numero="9" titulo="Descomprensión torácica").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img59.svg', style="width: 250px", alt='Muestra imagen de descomprensión torácica, se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p Permitir la descomprensión torácica completa después de cada compresión, no apoyarse en el pecho después de cada compresión.
       .row(numero="10" titulo="Relación compresión-ventilación").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img60.svg', style="width: 250px", alt='Muestra imagen de Relación compresión-ventilación, se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p 30 compresiones y 2 ventilaciones (30:2).
           p.mb-0 Si hay más de un reanimador, se deben ir turnando cada 2 minutos.
       .row(numero="11" titulo="Uso del DEA").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img61.svg', style="width: 250px", alt='Muestra uso del DEA, se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p Si está disponible el DEA, se debe abrir y colocar los parches en el pecho desnudo de la víctima: uno en el hombro derecho debajo de la clavícula y otro a unos 10 cm por debajo de la axila izquierda. El DEA analiza el ritmo cardíaco, no tocar al paciente; si está indicada la descarga, apretar el botón y no tocar a la víctima. Reiniciar de nuevo las maniobras de RCP 30:2 durante 2 min. Si la víctima no responde, volver a analizar el ritmo; si vuelve a estar indicada la descarga, se repite el proceso y si no, reiniciar maniobras de RCP de forma inmediata hasta que lleguen los servicios de emergencia, la víctima responda o estemos exhaustos. Si hay dos reanimadores, uno debe abrirlo y otro continuar con las compresiones hasta que se pongan los parches.
       .row(numero="12" titulo="Duración de la RCP").align-items-center
-        .col-md-4.mb-4.mb-md-0
+        .col-lg-4.mb-4.mb-lg-0
           figure
             img(src='@/assets/curso/img62.svg', style="width: 250px", alt='Muestra imagen de Duración de la RCP, se explica parte inferior.').m-auto
-        .col-md-6
+        .col-lg-6
           p No se debe interrumpir la reanimación hasta que el paciente muestre signos de vida, hasta que lleguen los profesionales sanitarios o hasta que la persona que reanima, esté agotada o exista peligro para su integridad.
-    separador.mb-5
+    separador
     #t_5_2
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.2 Protocolo de Ovace (obstrucción de vía aérea por cuerpo extraño)
-    .row.align-items-center.bg-color12.mb-5
+    .row.align-items-center.bg-color12.mb-5.px-5
       .col-lg-4
         figure(data-aos="fade-right")
           img(src='@/assets/curso/img11.png', style="width: 350px", alt='Imágen decorativa').m-auto
@@ -146,7 +141,7 @@
     .row
       .col-lg-4
         figure.mb-4.mb-lg-0
-          img(src='@/assets/curso/img63.svg', style="width: 350px", alt='Imágen decorativa').m-auto
+          img(src='@/assets/curso/img63.svg', style="width: 300px", alt='Imágen decorativa').m-auto
       .col-lg-8
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones--borde.p-4(titulo="Paso 1")
@@ -161,7 +156,7 @@
             p Repita el procedimiento, hasta que expulse el objeto que produce la obstrucción.
           .tarjeta.color-acento-botones--borde.p-4(titulo="Paso 6")
             p Si la persona pierde el conocimiento y deja de respirar, active el NUSE 123, donde se le brindará orientación e información, en caso necesario. Si es imprescindible, inicie maniobra RCP básica.
-    separador.mb-5
+    separador
     #t_5_3
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 5.3 Ahogamiento por inmersión

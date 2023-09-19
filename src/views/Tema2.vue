@@ -2,8 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Signos vitales por grupos etarios
@@ -23,7 +22,6 @@
         .titulo-sexto.border-titulo.mb-3(data-aos="fade-right")
           h5 Figura 9.
           span ¿Cómo se puede palpar?
-
         .row.justify-content-around
           .col-lg-4
             figure.mb-5
@@ -34,7 +32,6 @@
           .col-lg-4
             figure.mb-5
               img(src='@/assets/curso/img35.svg', style="max-width: 350px;", alt='Imagen como palpar pulso en la muñeca arteria radial, específicamente debajo del dedo pulgar').m-auto
-
         .row.mb-5
           .col-lg-3
             figure.mb-4.mb-lg-0(data-aos="fade-left")
