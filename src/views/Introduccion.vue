@@ -42,13 +42,12 @@
           .tarjeta.tarjeta--azul.d-flex.align-items-center
             .p-4
               p.mb-0 Si se sabe cómo evaluar el lugar donde ocurre el accidente, se podrá evitar un daño mayor o ser una víctima más, al tratar de socorrer al herido.
-    .h4(data-aos="fade-right") ¿Cómo actuar correctamente para ayudar a un herido?
-    p(data-aos="fade-right") Todo primer respondiente debe estar preparado para aplicar las prácticas simples que se utilizan para atender y estabilizar a una persona que se encuentra lesionada, o con una enfermedad súbita y, por lo tanto, necesita recibir los primeros auxilios. Este conocimiento le puede ayudar a salvar la vida de un ser querido, de un vecino o de cualquier ser humano. Es importante refrescar y actualizar el conocimiento, de manera regular, para reforzar la confianza, pues el poder tratar una lesión leve, ayudará a reconfortar al herido. 
-    p.mb-5(data-aos="fade-right") Para el estudio de los primeros auxilios es de vital importancia recordar la anatomía del cuerpo humano, cómo funciona cada uno de sus sistemas y la relación de las respuestas del organismo con el tipo de signo y síntoma que se esté manifestando. El primer respondiente debe aprender a:
-    .row.justify-content-center(data-aos="fade-left")
-      .col-10
-        figure(data-aos="fade-right")
-          img(src='@/assets/curso/img5.svg', alt='Imágen decorativa')
+    .h4.mb-5(data-aos="fade-right") ¿Cómo actuar correctamente para ayudar a un herido?
+    .row
+      .col-12(data-aos="fade-right")
+        figure
+          .video
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/V9UlnxCApQw?si=RwkesR_xs_Sps0Ne" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </template>
 
