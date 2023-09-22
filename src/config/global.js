@@ -381,7 +381,7 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Liliana Victoria Morales Gualdró',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
@@ -417,7 +417,7 @@ export default {
         },
         {
           nombre: 'Gloria Amparo López Escudero',
-          cargo: 'Adecuación instruccional',
+          cargo: 'Adecuación instruccional - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -425,7 +425,7 @@ export default {
           nombre: 'Andrés Felipe Velandia Espitia',
           cargo: 'Metodología para la formación virtual',
           centro:
-            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital.',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
