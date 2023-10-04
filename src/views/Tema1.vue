@@ -122,7 +122,7 @@
             .h5.mb-2 Bronquiolos
             p Dentro de los pulmones, los bronquios se ramifican y forman bronquios más pequeños o conductos incluso más pequeños llamados "bronquiolos".
           .tarjeta.color-acento-botones.p-3(x="20.2%" y="80.2%")
-            .h5.mb-2 Aveolos
+            .h5.mb-2 Alveolos
             p Los bronquiolos terminan en pequeños sacos de aire llamados "alveolos", donde ocurre el intercambio de oxígeno y dióxido de carbono. Cada persona tiene cientos de millones de alveolos en los pulmones.
     .row.justify-content-center
       .col-lg-10
@@ -304,7 +304,7 @@
           p Generan en el individuo dependencias y discapacidades sociales que, de no ser tratadas por profesionales o no tener adherencia a los tratamientos farmacológicos, pueden llegar a alterar la armonía y bienestar de la comunidad en la cual se desarrollan.
     .h3(data-aos="fade-right") ¿Qué es una crisis en salud mental?
     p(data-aos="fade-left") De acuerdo con lo estudiado anteriormente, se puede concluir que una crisis en salud mental es:
-    p.mb-0(data-aos="fade-right") Un periodo crucial o decisivo en la vida de una persona, un punto de viraje que tiene consecuencias físicas y emocionales De manera específica es un periodo limitado de desequilibrio psicológico precipitado por un cambio repentino y significativo en la situación vital de la persona. Este cambio origina necesidad de ajustes internos y el uso de mecanismos de adaptación externa que rebasan temporalmente la capacidad del individuo (Cohen y Arhean, 1989).
+    p.mb-0(data-aos="fade-right") Un periodo crucial o decisivo en la vida de una persona, un punto de viraje que tiene consecuencias físicas y emocionales. De manera específica es un periodo limitado de desequilibrio psicológico precipitado por un cambio repentino y significativo en la situación vital de la persona. Este cambio origina necesidad de ajustes internos y el uso de mecanismos de adaptación externa que rebasan temporalmente la capacidad del individuo (Cohen y Arhean, 1989).
   
 </template>
 

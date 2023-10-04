@@ -144,15 +144,15 @@ export default {
     ],
     subMenu: [
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
       },
       {
@@ -173,7 +173,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/331502_CF06_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -188,14 +188,6 @@ export default {
     ],
   },
   complementario: [
-    {
-      tema: 'Conceptos básicos de anatomía y fisiología',
-      referencia:
-        'Nielsen, M. y Miller, S. (2012). <i>Atlas de anatomía.</i> Editorial Panamericana. ',
-      tipo: 'Libro',
-      link:
-        'https://login.bdigital.sena.edu.co/login?url=https://www.medicapanamericana.com/VisorEbookV2/Ebook/9788498355901?token=adc56dbb-e0c3-4b6a-b06b-4eedd9fe00d0#{%22Pagina%22:%22IV%22,%22Vista%22:%22Indice%22,%22Busqueda%22:%22%22}',
-    },
     {
       tema: 'Conceptos básicos de anatomía y fisiología',
       referencia:
@@ -260,7 +252,7 @@ export default {
     {
       termino: 'Broncoaspiración',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'afección en la que las vías respiratorias aspiran los alimentos, los líquidos, la saliva o el vómito. Se origina en estados alterados de la conciencia por emesis, administración de bebidas o alimentos en personas inconscientes o bajo los efectos de medicamentos que generen somnolencia. La aspiración pulmonar puede producir neumonía o muerte por asfixia. Los síntomas incluyen tos, dificultad para respirar y, en algunos casos, asfixia.',
     },
     {
       termino: 'Bursa',
@@ -301,14 +293,14 @@ export default {
         'conjunto de mecanismos que permiten mantener el equilibrio en la composición del medio interno de un organismo, es decir, que facilitan que el medio interno se mantenga relativamente constante, lo cual es necesario para el normal funcionamiento celular.',
     },
     {
-      termino: 'Líquido sinovial',
-      significado:
-        'fluido claro y pegajoso secretado por la membrana sinovial.',
-    },
-    {
       termino: 'Ligamentos',
       significado:
         'bandas duras y elásticas de tejido conjuntivo que rodean la articulación para dar soporte y limitar el movimiento de la articulación. Los ligamentos conectan los huesos entre sí.',
+    },
+    {
+      termino: 'Líquido sinovial',
+      significado:
+        'fluido claro y pegajoso secretado por la membrana sinovial.',
     },
     {
       termino: 'Menisco',
@@ -323,7 +315,7 @@ export default {
     {
       termino: 'Triage',
       significado:
-        'sistema de selección y clasificación de pacientes en la escena o sitio del evento traumático, basado en sus necesidades terapéuticas y los recursos disponibles para la atención.',
+        'sistema de selección y clasificación de pacientes en la escena o sitio del evento traumático, basado en sus necesidades terapéuticas y los recursos disponibles para la atención',
     },
   ],
   referencias: [
@@ -342,8 +334,6 @@ export default {
     {
       referencia:
         'Congreso de la Republica de Colombia. (21 de enero de 2013). Ley 1616, por medio de la cual se expide la Ley de Salud Mental y se dictan otras disposiciones.',
-      link:
-        'https://www.defensoria.gov.co/public/Normograma%202013_html/Normas/Ley_1616_2013.pdf',
     },
     {
       referencia:
@@ -351,8 +341,9 @@ export default {
     },
     {
       referencia:
-        'NAEMT. (2018). Pre Hospital Trauma Life Suport PHTLS - Edición en español. 9 edición. NAEMT.',
-      link: 'https://encolombia.com/medicina/guiasmed/guia-hospitalaria/',
+        'NAEMT. (2018). Presentación Guías Básicas de Atención Médica Prehospitalaria- Edición en español. 9 edición. NAEMT. ',
+      link:
+        'https://encolombia.com/medicina/guiasmed/guia-hospitalaria/presentacion-13/',
     },
     {
       referencia: 'OMS. (2018). Salud mental: fortalecer nuestra respuesta.',

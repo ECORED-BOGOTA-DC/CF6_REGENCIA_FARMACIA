@@ -36,7 +36,7 @@
           img(src='@/assets/curso/img3.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul.d-flex.align-items-center
             .p-4
-              p.mb-0 Si una hemorragia se logra contener, se evitarán el shock y la muerte por la pérdida de sangre.
+              p.mb-0 Si una hemorragia se logra contener, se evitarán el #[em shock] y la muerte por la pérdida de sangre.
         .tarjeta-avatar-b
           img(src='@/assets/curso/img4.svg' alt='Imágen decorativa')
           .tarjeta.tarjeta--azul.d-flex.align-items-center

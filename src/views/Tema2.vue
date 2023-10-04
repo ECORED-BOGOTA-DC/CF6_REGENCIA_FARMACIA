@@ -62,7 +62,7 @@
           .col-lg-4.p-4.bg-color11.mb-4.mb-lg-0
             figure.mb-4
               img(src='@/assets/curso/img37.svg', style="max-width: 100px;", alt='Imágen decorativa')
-            p Se considera relleno capilar normal a la recuperación del color rosado del lecho ungueal en un tiempo inferior a 2 segundos y se puede alterar en <i>shock</i>, hipotensión, hemorragias, hipotermia y en estados graves de deshidratación, el tiempo de llenado capilar es mayor a 2 segundos.
+            p.mb-0 Se considera relleno capilar normal a la recuperación del color rosado del lecho ungueal en un tiempo inferior a 2 segundos y se puede alterar en <i>shock</i>, hipotensión, hemorragias, hipotermia y en estados graves de deshidratación, el tiempo de llenado capilar es mayor a 2 segundos.
           .col-lg-8
             .h5.mb-4(data-aos="fade-left") ¿Cómo se puede valorar?
             .row.mb-4.align-items-center(data-aos="fade-left")

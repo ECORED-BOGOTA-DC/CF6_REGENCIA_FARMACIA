@@ -73,10 +73,10 @@
             img(src='@/assets/curso/img56.svg', style="width: 250px", alt='Muestra imagen de Compresiones torácicas,  se explica parte inferior.').m-auto
         .col-lg-6
           p Arrodillarse al lado de la víctima, manteniendo la verticalidad sobre ella. 
-          p Colocar el talón de una mano en el centro del pecho de la víctima, poner la otra mano encima de la primera, entrelazando los p dedos tratando de apoyar solo el talón de la mano que está debajo (evitando presionar también las costillas).
+          p Colocar el talón de una mano en el centro del pecho de la víctima, poner la otra mano encima de la primera, entrelazando los dedos tratando de apoyar solo el talón de la mano que está debajo (evitando presionar también las costillas).
           p Profundidad adecuada, descendiendo el esternón al menos 5 cm y máximo 6 cm.
           p Ejercer presión manteniendo los brazos extendidos, de manera vertical, aprovechando el peso de nuestro cuerpo.
-          p Permitir una expansión completa del tórax entre una compresión y la siguiente, evitando apoyarse sobre el tórax entre las p compresiones.
+          p Permitir una expansión completa del tórax entre una compresión y la siguiente, evitando apoyarse sobre el tórax entre las compresiones.
           p.mb-0 Reducir al mínimo las interrupciones (menos de 10 segundos) entre los ciclos.
       .row(numero="7" titulo="Profundidad de las compresiones").align-items-center
         .col-lg-4.mb-4.mb-lg-0
