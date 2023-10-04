@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="324.111" viewBox="0 0 1240 324.111">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_145511" data-name="Trazado 145511" d="M0,727.681H1240V403.57H0Z" transform="translate(0 -403.57)" fill="#b2ebf2"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_94" data-name="Enmascarar grupo 94" opacity="0.2" clip-path="url(#clip-path)">
+    <path id="Trazado_145510" data-name="Trazado 145510" d="M1404.913,943.987c183.89,96.641,386.691,152.179,591.845,85.389,406.959-132.492,406.509-103.227,406.509-103.227v615.663H1053.877V868.649S1195.488,833.927,1404.913,943.987Z" transform="translate(-1078.972 -814.692)" fill="#81d4fa"/>
+  </g>
+</svg>
